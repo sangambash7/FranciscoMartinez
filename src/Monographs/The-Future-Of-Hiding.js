@@ -5,7 +5,7 @@ export default function TheFutureOfHiding() {
     <main>
       <div className="publication-container">
         <div className="publication-upper">
-          <img src="media/publications-imgs/1.jpg" alt="test" />
+          <img src="media/publications-imgs/1.jpg" alt="Publication" />
           <button className="btn-download">Download</button>
         </div>
 
