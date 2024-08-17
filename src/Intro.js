@@ -48,7 +48,7 @@ export default function Home() {
                 transdisciplinary research and creative ways of disseminating
                 knowledge.
               </p>
-              <Link href="/Introduction" className="btn-home">
+              <Link to="/Introduction" className="btn-home">
                 More About Me &#8594;
               </Link>
             </div>
