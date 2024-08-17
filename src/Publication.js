@@ -19,7 +19,7 @@ export default function Publication(props) {
       <div>
         <p>{props.publicationObj.namePublication}</p>
         <span>
-          <Link to={`/${props.publicationObj.hyperlink}`}>Read More</Link>
+          <Link to={`./${props.publicationObj.hyperlink}`}>Read More</Link>
         </span>
       </div>
     </li>
