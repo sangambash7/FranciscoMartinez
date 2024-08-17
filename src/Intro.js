@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -47,9 +48,9 @@ export default function Home() {
                 transdisciplinary research and creative ways of disseminating
                 knowledge.
               </p>
-              <a href="/Introduction" className="btn-home">
+              <Link href="/Introduction" className="btn-home">
                 More About Me &#8594;
-              </a>
+              </Link>
             </div>
             <div className="col-12 col-md-3">
               <img
