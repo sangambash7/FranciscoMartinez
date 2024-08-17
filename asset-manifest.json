@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FranciscoMartinez/static/css/main.2d16d9ce.css",
+    "main.js": "/FranciscoMartinez/static/js/main.d615bb50.js",
+    "index.html": "/FranciscoMartinez/index.html",
+    "main.2d16d9ce.css.map": "/FranciscoMartinez/static/css/main.2d16d9ce.css.map",
+    "main.d615bb50.js.map": "/FranciscoMartinez/static/js/main.d615bb50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d16d9ce.css",
+    "static/js/main.d615bb50.js"
+  ]
+}
