@@ -6,7 +6,7 @@ import {
   faGoogleScholar,
   faInstagram,
   faXTwitter,
-  faSearchengin,
+  // faSearchengin,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Navbar() {
@@ -139,11 +139,11 @@ export default function Navbar() {
               </li>
             </ul>
             <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="#" className="nav-link">
                   <FontAwesomeIcon icon={faSearchengin} size="2x" />
                 </a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
