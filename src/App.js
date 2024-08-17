@@ -19,24 +19,24 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Intro />} />
-        <Route path="/Introduction" element={<Introduction />} />
-        <Route path="/Teaching" element={<Teaching />} />
-        <Route path="/Publications" element={<Publications />} />
-        <Route path="/EditedVolumes" element={<PublicationEditedVolumes />} />
-        <Route path="/SpecialIssues" element={<SpecialIssues />} />
+        <Route path="/#/" element={<Intro />} />
+        <Route path="/#/Introduction" element={<Introduction />} />
+        <Route path="/#/Teaching" element={<Teaching />} />
+        <Route path="/#/Publications" element={<Publications />} />
+        <Route path="/#/EditedVolumes" element={<PublicationEditedVolumes />} />
+        <Route path="/#/SpecialIssues" element={<SpecialIssues />} />
         <Route
-          path="/SelectedArticles"
+          path="/#/SelectedArticles"
           element={<PublicationSelectedArticles />}
         />
         <Route
-          path="/SelectedChapters"
+          path="/#/SelectedChapters"
           element={<PublicationSelectedChapters />}
         />
-        <Route path="/Novel" element={<Novel />} />
-        <Route path="/Exhibitions" element={<Exhibitions />} />
-        <Route path="/Interviews" element={<Interviews />} />
-        <Route path="/The-Future-Of-Hiding" element={<TheFutureOfHiding />} />
+        <Route path="/#/Novel" element={<Novel />} />
+        <Route path="/#/Exhibitions" element={<Exhibitions />} />
+        <Route path="/#/Interviews" element={<Interviews />} />
+        <Route path="/#/The-Future-Of-Hiding" element={<TheFutureOfHiding />} />
       </Routes>
     </Router>
   );
