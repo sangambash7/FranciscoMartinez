@@ -53,7 +53,7 @@ export default function Home() {
             </div>
             <div className="col-12 col-md-3">
               <img
-                src="/media/1.jpeg"
+                src="media/1.jpeg"
                 alt="Francisco"
                 className="img-fluid home-img img-radius"
               />
