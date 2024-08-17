@@ -53,57 +53,57 @@ export default function Navbar() {
                   aria-labelledby="publicationsDropdown"
                 >
                   <li>
-                    <a href="/Publications" className="dropdown-item">
+                    <Link to="/Publications" className="dropdown-item">
                       Monographs
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/EditedVolumes" className="dropdown-item">
+                    <Link to="/EditedVolumes" className="dropdown-item">
                       Edited Volumes
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/SpecialIssues" className="dropdown-item">
+                    <Link to="/SpecialIssues" className="dropdown-item">
                       Special Issues
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/SelectedArticles" className="dropdown-item">
+                    <Link to="/SelectedArticles" className="dropdown-item">
                       Selected Articles
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/SelectedChapters" className="dropdown-item">
+                    <Link to="/SelectedChapters" className="dropdown-item">
                       Selected Chapters
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </li>
 
               <li className="nav-item navbar-menu-item">
-                <a href="/Introduction" className="nav-link text-dark fs-5 ">
+                <Link to="/Introduction" className="nav-link text-dark fs-5">
                   Introduction
-                </a>
+                </Link>
               </li>
               <li className="nav-item navbar-menu-item">
-                <a href="/" className="nav-link active text-dark fs-4">
+                <Link to="/" className="nav-link active text-dark fs-4">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item navbar-menu-item">
-                <a href="/Teaching" className="nav-link text-dark fs-5">
+                <Link to="/Teaching" className="nav-link text-dark fs-5">
                   Teaching
-                </a>
+                </Link>
               </li>
               <li className="nav-item navbar-menu-item">
-                <a href="/Exhibitions" className="nav-link text-dark fs-5">
+                <Link to="/Exhibitions" className="nav-link text-dark fs-5">
                   Exhibitions
-                </a>
+                </Link>
               </li>
               <li className="nav-item navbar-menu-item">
-                <a href="/Interviews" className="nav-link text-dark">
+                <Link to="/Interviews" className="nav-link text-dark">
                   Interviews
-                </a>
+                </Link>
               </li>
             </ul>
             <ul className="navbar-nav ms-auto">
