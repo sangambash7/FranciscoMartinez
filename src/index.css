@@ -366,7 +366,7 @@ h5 {
 
 /* Media Queries */
 
-@media (max-width: 76px) {
+@media (max-width: 767px) {
   .navbar-menu-item a {
     font-size: 1.3rem !important;
   }
