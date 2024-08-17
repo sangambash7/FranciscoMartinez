@@ -1,13 +1,373 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+main {
+  background-color: rgb(245, 239, 224);
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+  min-height: 100vh;
+}
+
+/* UTILITY Classes */
+.img-radius {
+  border-radius: 0.5rem;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+h5 {
+  color: red !important;
+  display: flex;
+  justify-content: center;
+}
+
+/* Navbar */
+.navbar {
+  position: relative;
+}
+
+.navbar::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #ccc, transparent);
+}
+
+.navbar-nav .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.navbar-nav .dropdown-menu {
+  margin-top: 0;
+  background-color: rgb(245, 239, 224);
+}
+
+.navbar-menu-item a {
+  color: #b91629 !important;
+}
+
+.keywords {
+  font-size: 0.8rem;
+  color: #6c757d;
+  display: block;
+  margin-top: 2px;
+}
+
+/* HOME */
+.home {
+  text-align: justify;
+}
+
+.home p {
+  color: rgb(102, 102, 102);
+  font-size: 1.15rem;
+}
+
+.home-img {
+  width: 25rem;
+  height: 35rem;
+  object-fit: cover;
+}
+
+.btn-home {
+  width: auto;
+  text-decoration: underline;
+  font-size: 1.5rem;
+  font-style: italic;
+  color: #b91629;
+}
+
+.btn-home:hover {
+  color: red;
+}
+
+/* Introduction */
+.introduction img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+}
+
+/* TEACHING */
+.teaching p {
+  text-align: justify;
+}
+.teaching h2,
+.teaching h5 {
+  color: rgb(8, 62, 115);
+}
+
+.accordion-button {
+  color: red !important;
+}
+
+/* EXHIBITIONS */
+.exhibitions h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lora", serif;
+}
+
+/* PUBLICATIONS */
+.publications-menu {
+  width: 100%;
+  color: #666;
+}
+
+.publications-menu a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #b91629;
+  margin-right: 0.8rem;
+}
+
+.publications-menu a:hover {
+  color: red;
+}
+
+.publications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.publications h2 {
+  display: inline-block;
+  padding: 1rem 0;
+  border-top: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+.publications > p {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+  width: 80%;
+}
+
+.publications-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.publication {
+  display: flex;
+  gap: 3.2rem;
+  position: relative;
+  cursor: pointer;
+  transition: border-color 0.3s ease, border-width 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.publication:hover {
+  border-color: rgb(201, 145, 145);
+  border-width: 1px;
+}
+
+.publication img {
+  width: 10rem;
+  aspect-ratio: 1;
+  align-self: start;
+  object-fit: cover;
+}
+
+.publication div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.publication h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.publication p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: auto;
+}
+
+.publication span {
+  display: block;
+  font-size: 1.6rem;
+}
+
+.publication a {
+  text-decoration: none;
+  color: black;
+}
+
+.publication a:hover {
+  color: red;
+}
+
+.monographs .card-body {
+  height: 10rem;
+}
+
+.publications-card-img-top {
+  width: 10rem;
+  object-fit: cover;
+}
+
+/* Publication Page Styling */
+.publication-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.publication-upper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.publication-upper img {
+  max-width: 30%;
+  height: auto;
+}
+
+.btn-download {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+.btn-download:hover {
+  background-color: #0056b3;
+}
+
+.publication-text {
+  text-align: justify;
+  max-width: 1000px;
+}
+
+/* Exhibitions Styling */
+.exhibitions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.exhibitions > p {
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 1.6;
+  width: 80%;
+}
+
+.exhibitions-list {
+  list-style: none;
+  display: grid;
+}
+
+.exhibition {
+  display: flex;
+  gap: 1rem;
+}
+
+.exhibition img {
+  width: 15.5rem;
+  aspect-ratio: 1;
+  align-self: start;
+  object-fit: cover;
+}
+
+.exhibition div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  padding: 0.4rem 0;
+}
+
+.exhibition p {
+  font-size: 1.4rem;
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: auto;
+}
+
+/* Interviews Styling */
+.accordion-button {
+  background-color: rgb(237, 223, 189) !important;
+}
+
+.accordion-body {
+  background-color: rgb(245, 239, 224) !important;
+}
+
+.swiper-container {
+  height: 30rem;
+  width: 30rem;
+}
+
+.swiper-slide img {
+  height: 30rem;
+  width: 30rem;
+  object-fit: cover;
+}
+
+.interview-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.interview-img {
+  height: 30rem;
+  width: 30rem;
+  object-fit: cover;
+}
+
+.interview p {
+  text-align: justify;
+}
+
+.p-interviewer {
+  color: red;
+  font-style: italic;
+}
+
+.btn-interviews {
+  background-color: rgb(237, 223, 189) !important;
+  color: black !important;
+  margin: 1rem 0;
+  font-weight: bold !important;
+}
+
+.btn-interviews:hover {
+  background-color: rgb(196, 176, 130) !important;
+}
+
+/* Media Queries */
+
+@media (max-width: 76px) {
+  .navbar-menu-item a {
+    font-size: 1.3rem !important;
+  }
 }
