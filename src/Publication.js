@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Publication(props) {
   const handleClick = () => {
@@ -18,7 +19,7 @@ export default function Publication(props) {
       <div>
         <p>{props.publicationObj.namePublication}</p>
         <span>
-          <a href={`${props.publicationObj.hyperlink}`}>Read More</a>
+          <Link to={`${props.publicationObj.hyperlink}`}>Read More</Link>
         </span>
       </div>
     </li>
