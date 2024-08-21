@@ -4,7 +4,7 @@ import exhibitionsData from "./exhibitionsData";
 export default function Exhibitions() {
   return (
     <main>
-      <div className="exhibitions pt-5">
+      <div className="exhibitions">
         <ul className="exhibitions-list row">
           {exhibitionsData.map((exhibition) => (
             <Exhibition

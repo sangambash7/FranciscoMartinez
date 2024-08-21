@@ -106,95 +106,95 @@ const publicationsData = [
   {
     id: 14,
     namePublication:
-      "Garbography: Waste Matter as Asemic Writing’, with O. Pyyhtinen. Forthcoming",
+      "Garbography: Waste Matter as Asemic Writing, with O. Pyyhtinen. Forthcoming",
     image: "14.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Garbography-Waste-Matter",
     category: "article",
   },
   {
     id: 15,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Hitchhacking, Passenger Ethnography and Four-wheeled Hospitality, with P. Laviolette, Ethnologia Europeae, 2024",
     image: "15.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Hitchhacking-Passenger-Ethnography",
     category: "article",
   },
   {
     id: 16,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Time to fix: Repair heuristics in Estonia and Portugal. Etnográfica, 2023",
     image: "16.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Time-To-Fix",
     category: "article",
   },
   {
     id: 17,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "What kind of documents do curators produce? Contemporary cases from Estonia. Curator, the Museum Journal, 2023",
     image: "17.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "What-Kind-Of-Documents",
     category: "article",
   },
   {
     id: 18,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Memory, don’t speak! Monumental neglect and memorial sacrifice in contemporary Estonia. Cultural Geographies 2021",
     image: "18.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Memory-Dont-Speak",
     category: "article",
   },
   {
     id: 19,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Waste and postsocialism in Estonia. Becoming European through the management of rubbish, with K. Beilmann. Environment and Planning C: Politics and Space, 2019",
     image: "19.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Waste-And-Postsocialism",
     category: "article",
   },
   {
     id: 20,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Analogue photo booths in Berlin: A stage, a trap, a condenser, and four shots for kissing the person you love. Anthropology and Photography",
     image: "20.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Analogue-Photo-Booths",
     category: "article",
   },
   {
     id: 21,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Narva as Method. Urban Inventories and the Mutation of the Post-Socialist City. Anthropological Journal of European Cultures, 2020",
     image: "21.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Narva-As-Method",
     category: "article",
   },
   {
     id: 22,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Doing nothing: Anthropology sits at the same table with contemporary art in Lisbon and Tbilisi. Ethnography, 2018",
     image: "22.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "Doing-Nothing-Anthropology",
     category: "article",
   },
   {
     id: 23,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      '"This Place Has Potential": Trash, Culture, and Urban Regeneration in Tallinn, Estonia. Suomen Antropologi, 2018',
     image: "23.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "‘This-Place-Has-Potential”",
     category: "article",
   },
   {
     id: 24,
     namePublication:
-      "Rethinking Euro-Anthropology. Part Three. Early career scholars forum. Social Anthropology, 2017",
+      "Waste is not the end. For an anthropology of care, maintenance and repair. Social Anthropology, 2017",
     image: "24.jpeg",
-    hyperlink: "Rethinking-Euro-Anthropology",
+    hyperlink: "‘Waste-Is-Not-The-End",
     category: "article",
   },
   {
     id: 25,
     namePublication:
-      "Remaining without preservation: The unfitness of Kino Rodina as zombie heritage’. In Connecting with Ambivalent Heritage. T. Äikäs and T. Matila (ed.) Bloomsbury, 2024",
+      "Remaining without preservation: The unfitness of Kino Rodina as zombie heritage. In Connecting with Ambivalent Heritage. T. Äikäs and T. Matila (ed.) Bloomsbury, 2024",
     image: "25.jpg",
     hyperlink: "Remaining-Without-Preservation",
     category: "chapter",
@@ -202,7 +202,7 @@ const publicationsData = [
   {
     id: 26,
     namePublication:
-      "Co-ethnographers in the storm: Investigating post-socialist decline with contemporary artists’. In The Trouble with Art. R. Sansi and J. Tinius. Routledge, 2024",
+      "Co-ethnographers in the storm: Investigating post-socialist decline with contemporary artists. In The Trouble with Art. R. Sansi and J. Tinius. Routledge, 2024",
     image: "26.jpg",
     hyperlink: "Co-ethnographers-In-The_storm",
     category: "chapter",
@@ -210,7 +210,7 @@ const publicationsData = [
   {
     id: 27,
     namePublication:
-      "How to make ethnographic research with exhibitions’. In An Ethnographic Inventory. A. Estalella & T.S Criado (eds.) Routledge, 2023",
+      "How to make ethnographic research with exhibitions. In An Ethnographic Inventory. A. Estalella & T.S Criado (eds.) Routledge, 2023",
     image: "27.jpeg",
     hyperlink: "How-To-Make-Ethnographic-Research",
     category: "chapter",
@@ -218,7 +218,7 @@ const publicationsData = [
   {
     id: 28,
     namePublication:
-      "Fooled into Fieldwork: Epistemic Detours of an Accidental Anthropologist’, in Peripheral Methodologies. F. Martínez, L. Di Puppo & M. Frederiksen eds. Routledge, 2021",
+      "Fooled into Fieldwork: Epistemic Detours of an Accidental Anthropologist, in Peripheral Methodologies. F. Martínez, L. Di Puppo & M. Frederiksen eds. Routledge, 2021",
     image: "28.jpeg",
     hyperlink: "Fooled-Into-Fieldwork",
     category: "chapter",
@@ -226,7 +226,7 @@ const publicationsData = [
   {
     id: 29,
     namePublication:
-      "Voids out of Place and Politics below the State in Georgia’. In Repair, Brokenness, Breakthrough. F. Martínez & P. Laviolette (eds.) Berghahn, 2019",
+      "Voids out of Place and Politics below the State in Georgia. In Repair, Brokenness, Breakthrough. F. Martínez & P. Laviolette (eds.) Berghahn, 2019",
     image: "29.jpeg",
     hyperlink: "Voids-Out-Of-Place",
     category: "chapter",

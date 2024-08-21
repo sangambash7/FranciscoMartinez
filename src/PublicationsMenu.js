@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function PublicationsMenu() {
   return (
-    <div class="publications-menu p-5">
+    <div class="publications-menu">
       <Link to="/Publications">Monographs</Link>
       <Link to="/EditedVolumes">Edited volumes</Link>
       <Link to="/SpecialIssues">Special Issues</Link>

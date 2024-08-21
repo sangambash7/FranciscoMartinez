@@ -77,6 +77,11 @@ export default function Navbar() {
                       Selected Chapters
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/Novel" className="dropdown-item">
+                      Novel
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
