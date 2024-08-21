@@ -130,17 +130,18 @@ const publicationsData = [
   {
     id: 17,
     namePublication:
-      "What kind of documents do curators produce? Contemporary cases from Estonia. Curator, the Museum Journal, 2023",
+      "Memory, don’t speak! Monumental neglect and memorial sacrifice in contemporary Estonia. Cultural Geographies 2021",
     image: "17.jpeg",
-    hyperlink: "What-Kind-Of-Documents",
+    hyperlink: "Memory-Dont-Speak",
     category: "article",
   },
   {
     id: 18,
     namePublication:
-      "Memory, don’t speak! Monumental neglect and memorial sacrifice in contemporary Estonia. Cultural Geographies 2021",
+      "What kind of documents do curators produce? Contemporary cases from Estonia. Curator, the Museum Journal, 2023",
+
     image: "18.jpeg",
-    hyperlink: "Memory-Dont-Speak",
+    hyperlink: "What-Kind-Of-Documents",
     category: "article",
   },
   {
