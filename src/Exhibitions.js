@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import exhibitionsData from "./exhibitionsData";
+import { Link } from "react-router-dom";
 
 export default function Exhibitions() {
   return (
@@ -38,6 +39,11 @@ function Exhibition({ exhibitionObj }) {
       />
       <div>
         <p>{exhibitionObj.describtion}</p>
+        {exhibitionObj.hyperlink ? (
+          <span>
+            <Link to={`/${exhibitionObj.hyperlink}`}>Read More</Link>
+          </span>
+        ) : null}
       </div>
     </li>
   );

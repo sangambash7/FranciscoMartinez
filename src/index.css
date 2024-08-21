@@ -312,8 +312,16 @@ h5 {
 .exhibition p {
   font-size: 1.4rem;
   font-weight: 300;
-  font-style: italic;
   margin-bottom: auto;
+}
+
+.exhibition a {
+  text-decoration: none;
+  color: black;
+}
+
+.exhibition a:hover {
+  color: red;
 }
 
 /* Interviews Styling */
