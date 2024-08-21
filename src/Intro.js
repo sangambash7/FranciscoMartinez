@@ -24,21 +24,27 @@ export default function Home() {
               </p>
               <p>As my publications have shown:</p>
               <p>
-                1. Repair practices challenge the economic reasoning of
-                accelerated cycles of production-consumption-disposal through an
-                alternative ecology of care; Indeed, we do not repair things
-                because they break, but because we look after them.
+                <ul>
+                  <li>
+                    Repair practices challenge the economic reasoning of
+                    accelerated cycles of production-consumption-disposal
+                    through an alternative ecology of care; Indeed, we do not
+                    repair things because they break, but because we look after
+                    them.
+                  </li>
+                  <li>
+                    The investigation of what does not disappear properly makes
+                    visible broken relationships and where the mark between the
+                    old and the new lays.
+                  </li>
+                  <li>
+                    The gap between anthropology as a practice and as a
+                    discipline is overgrowing, therefore there is a need to
+                    innovate ethnographically with experimental collaborations.
+                  </li>
+                </ul>
               </p>
-              <p>
-                2. The investigation of what does not disappear properly makes
-                visible broken relationships and where the mark between the old
-                and the new lays.
-              </p>
-              <p>
-                3. The gap between anthropology as a practice and as a
-                discipline is overgrowing, therefore there is a need to innovate
-                ethnographically with experimental collaborations.
-              </p>
+
               <p>
                 I consider myself a fieldworker because I engage in live
                 experience research with others. But I also make use of
