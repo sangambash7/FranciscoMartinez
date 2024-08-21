@@ -39,11 +39,17 @@ function Exhibition({ exhibitionObj }) {
       />
       <div>
         <p>{exhibitionObj.describtion}</p>
-        {exhibitionObj.hyperlink ? (
+        {/* {exhibitionObj.hyperlink ? (
           <span>
-            <Link to={`/${exhibitionObj.hyperlink}`}>Read More</Link>
+            <a
+              href={exhibitionObj.hyperlink}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Read More
+            </a>
           </span>
-        ) : null}
+        ) : null} */}
       </div>
     </li>
   );
