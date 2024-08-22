@@ -60,6 +60,7 @@ h5 {
 
 .navbar-menu-item a {
   color: #b91629 !important;
+  font-size: 1rem;
 }
 
 .keywords {
@@ -201,14 +202,17 @@ h5 {
 }
 
 .publication p {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   font-weight: 300;
   margin-bottom: auto;
 }
 
 .publication span {
-  display: block;
-  font-size: 1.6rem;
+  /* display: block; */
+}
+
+.publication-nameCredit {
+  display: block !important;
 }
 
 .publication a {
@@ -376,10 +380,30 @@ h5 {
   background-color: rgb(196, 176, 130) !important;
 }
 
+/* Espanol Styling */
+.espanol h2 {
+  color: rgb(8, 62, 115);
+}
+
+.espanol p {
+  text-align: justify;
+}
+
 /* Media Queries */
+
+@media (max-width: 694px) {
+  .publication p {
+    font-size: 1.3rem;
+  }
+}
 
 @media (max-width: 767px) {
   .navbar-menu-item a {
-    font-size: 1.3rem !important;
+    font-size: 1.1rem !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .sidebar {
   }
 }

@@ -7,7 +7,7 @@ export default function Teaching() {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h2 className="teaching-h mb-4">
+              <h2 className="mb-4">
                 Teaching Philosophy: Participatory, Inclusive and Creative
               </h2>
               <p>

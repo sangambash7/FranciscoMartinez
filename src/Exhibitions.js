@@ -38,7 +38,10 @@ function Exhibition({ exhibitionObj }) {
         onClick={openFullscreen}
       />
       <div>
-        <p>{exhibitionObj.describtion}</p>
+        <p>
+          {exhibitionObj.describtion}.<br></br>
+        </p>
+
         {/* {exhibitionObj.hyperlink ? (
           <span>
             <a

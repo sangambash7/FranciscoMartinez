@@ -37,6 +37,11 @@ export default function Navbar() {
               </li>
             </ul>
             <ul className="navbar-nav mx-auto">
+              <li className="nav-item navbar-menu-item">
+                <Link to="/" className="nav-link active text-dark">
+                  Home
+                </Link>
+              </li>
               <li className="nav-item dropdown navbar-menu-item">
                 <Link
                   to="#"
@@ -86,28 +91,26 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item navbar-menu-item">
-                <Link to="/Introduction" className="nav-link text-dark fs-5">
-                  Introduction
-                </Link>
-              </li>
-              <li className="nav-item navbar-menu-item">
-                <Link to="/" className="nav-link active text-dark fs-4">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item navbar-menu-item">
-                <Link to="/Teaching" className="nav-link text-dark fs-5">
+                <Link to="/Teaching" className="nav-link text-dark">
                   Teaching
                 </Link>
               </li>
+
               <li className="nav-item navbar-menu-item">
-                <Link to="/Exhibitions" className="nav-link text-dark fs-5">
+                <Link to="/Exhibitions" className="nav-link text-dark">
                   Exhibitions
                 </Link>
               </li>
+
               <li className="nav-item navbar-menu-item">
                 <Link to="/Interviews" className="nav-link text-dark">
                   Interviews
+                </Link>
+              </li>
+
+              <li className="nav-item navbar-menu-item">
+                <Link to="/Español" className="nav-link text-dark">
+                  En español
                 </Link>
               </li>
             </ul>

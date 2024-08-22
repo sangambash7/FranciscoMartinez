@@ -7,17 +7,19 @@ import Teaching from "./Teaching";
 import Publications from "./Publications";
 import PublicationEditedVolumes from "./EditedVolumes";
 import SpecialIssues from "./SpecialIssues";
+import Novel from "./Novel";
 import PublicationSelectedArticles from "./SelectedArticles";
 import PublicationSelectedChapters from "./SelectedChapters";
-import Novel from "./Novel";
 import Exhibitions from "./Exhibitions";
 import Interviews from "./Interviews";
 import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
+import Espanol from "./Español";
+import Navbar2 from "./Navbar2";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar2 />
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="/Introduction" element={<Introduction />} />
@@ -36,6 +38,7 @@ function App() {
         <Route path="/Novel" element={<Novel />} />
         <Route path="/Exhibitions" element={<Exhibitions />} />
         <Route path="/Interviews" element={<Interviews />} />
+        <Route path="/Español" element={<Espanol />} />
         <Route path="/The-Future-Of-Hiding" element={<TheFutureOfHiding />} />
       </Routes>
     </Router>
