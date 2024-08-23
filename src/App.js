@@ -14,6 +14,7 @@ import Exhibitions from "./Exhibitions";
 import Interviews from "./Interviews";
 import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
 import Espanol from "./Español";
+import Navbar2 from "./Navbar2";
 
 function App() {
   return (

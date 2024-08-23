@@ -39,7 +39,7 @@ export default function Introduction() {
 
           <div className="col-12 col-md-3">
             <img
-              src="media/3.jpg"
+              src="media/Home 2 - Introduction.jpg"
               alt=""
               className="img-fluid home-img img-radius"
             />

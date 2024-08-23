@@ -10,6 +10,7 @@ export default function PublicationsMenu() {
       <Link to="/SelectedArticles">Selected Articles</Link>
       <Link to="/SelectedChapters">Selected Chapters</Link>
       <Link to="/Novel">Novel</Link>
+      <Link to="/español">En español</Link>
     </div>
   );
 }

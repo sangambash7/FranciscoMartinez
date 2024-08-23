@@ -10,6 +10,7 @@ export default function Teaching() {
               <h2 className="mb-4">
                 Teaching Philosophy: Participatory, Inclusive and Creative
               </h2>
+
               <p>
                 My aim as a teacher is to act as an enabler for students to
                 become active inquirers of social processes and of the
@@ -56,6 +57,15 @@ export default function Teaching() {
                 to considering alternative perspectives and to push both the
                 analytical and writing processes forward.
               </p>
+            </div>
+            <div className="col-12">
+              <img
+                src="media/Teaching1.jpeg"
+                alt=""
+                className="img-fluid home-img img-radius"
+              />
+            </div>
+            <div className="col-12">
               <p>
                 Teaching in higher education means being in contact with young,
                 inspiring yet often challenging people. During the last thirteen
@@ -86,7 +96,7 @@ export default function Teaching() {
                 expectations.
               </p>
             </div>
-            <div class="col-12">
+            <div className="col-12">
               <p>
                 In 2019, I co-directed the MA programme in Art Museums and
                 Gallery Studies at the University of Leicester, where one of my

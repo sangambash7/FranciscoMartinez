@@ -6,6 +6,11 @@ const exhibitionsData = [
     image: "1.jpeg",
   },
   {
+    id: 14,
+    describtion: ". Glass Box of the Solaris Center (Tallinn), 2024",
+    image: "1.jpeg",
+  },
+  {
     id: 2,
     describtion:
       '"General Theory of Abandoned Books", with V. Gurov. Solaris Glass Box (Tallinn), 2024',
