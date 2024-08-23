@@ -5,12 +5,11 @@ export default function Teaching() {
     <main>
       <div className="teaching">
         <div className="container">
+          <h2 className="mb-4">
+            Teaching Philosophy: Participatory, Inclusive and Creative
+          </h2>
           <div className="row">
             <div className="col-12 col-md-9">
-              <h2 className="mb-4">
-                Teaching Philosophy: Participatory, Inclusive and Creative
-              </h2>
-
               <p>
                 My aim as a teacher is to act as an enabler for students to
                 become active inquirers of social processes and of the
@@ -42,6 +41,15 @@ export default function Teaching() {
                 collaborative tasks, which end with intensive independent work
                 for a practical project.
               </p>
+            </div>
+            <div className="col-12 col-md-3">
+              <img
+                src="media/Teaching1.jpeg"
+                alt=""
+                className="img-fluid home-img img-radius"
+              />
+            </div>
+            <div className="col-12">
               <p>
                 As I teach, I continue to actively learn how to be a better
                 lecturer and supervisor to my students. They also have different
@@ -57,15 +65,6 @@ export default function Teaching() {
                 to considering alternative perspectives and to push both the
                 analytical and writing processes forward.
               </p>
-            </div>
-            <div className="col-12 col-md-3">
-              <img
-                src="media/Teaching1.jpeg"
-                alt=""
-                className="img-fluid home-img img-radius"
-              />
-            </div>
-            <div className="col-12">
               <p>
                 Teaching in higher education means being in contact with young,
                 inspiring yet often challenging people. During the last thirteen
