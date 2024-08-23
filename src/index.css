@@ -115,6 +115,10 @@ h5 {
   color: rgb(8, 62, 115);
 }
 
+.teaching img {
+  display: block;
+}
+
 .accordion-button {
   color: red !important;
 }

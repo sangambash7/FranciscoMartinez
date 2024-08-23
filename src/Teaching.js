@@ -12,7 +12,7 @@ export default function Teaching() {
             <div className="col-12 col-md-4 order-md-2 d-flex align-items-center justify-content-center text-center mb-2">
               <img
                 src="media/Teaching1.jpeg"
-                alt=""
+                alt="Francisco"
                 className="img-fluid home-img img-radius"
               />
             </div>
