@@ -9,7 +9,14 @@ export default function Teaching() {
             Teaching Philosophy: Participatory, Inclusive and Creative
           </h2>
           <div className="row">
-            <div className="col-12 col-md-8 order-md-2">
+            <div className="col-12 col-md-4 order-md-2">
+              <img
+                src="media/Teaching1.jpeg"
+                alt=""
+                className="img-fluid home-img img-radius"
+              />
+            </div>
+            <div className="col-12 col-md-8 order-md-1">
               <p>
                 My aim as a teacher is to act as an enabler for students to
                 become active inquirers of social processes and of the
@@ -28,13 +35,8 @@ export default function Teaching() {
                 that students can employ outside of the classroom.
               </p>
             </div>
-            <div className="col-12 col-md-4 order-md-1">
-              <img
-                src="media/Teaching1.jpeg"
-                alt=""
-                className="img-fluid home-img img-radius"
-              />
-            </div>
+          </div>
+          <div className="row">
             <div className="col-12">
               <p>
                 My classes tend to be horizontal, favouring dialogue and
