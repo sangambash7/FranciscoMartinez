@@ -409,7 +409,9 @@ h5 {
   }
 }
 
-@media (max-width: 991px) {
-  .sidebar {
+@media (min-width: 768px) and (max-width: 991px) {
+  .teaching img {
+    height: 70%;
+    object-position: right;
   }
 }

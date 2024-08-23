@@ -4,7 +4,7 @@ export default function Teaching() {
   return (
     <main>
       <div className="teaching">
-        <div className="container">
+        <div className="container-md">
           <h2 className="mb-4">
             Teaching Philosophy: Participatory, Inclusive and Creative
           </h2>
