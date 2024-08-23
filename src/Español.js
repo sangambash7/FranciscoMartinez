@@ -1,10 +1,12 @@
 import React from "react";
+import PublicationsMenu from "./PublicationsMenu";
 
 export default function Espanol() {
   return (
     <main>
       <div className="espanol">
         <div className="container">
+          <PublicationsMenu />
           <h2 className="mb-4">
             ‘Cómo curar (y cuidar) de nuestras preguntas etnográficas de forma
             colaborativa y experimental’. Xcol
