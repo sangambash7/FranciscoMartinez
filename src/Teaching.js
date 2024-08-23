@@ -27,6 +27,15 @@ export default function Teaching() {
                 contemporary issues. Also I strive to provide tools of analysis
                 that students can employ outside of the classroom.
               </p>
+            </div>
+            <div className="col-12 col-md-3">
+              <img
+                src="media/Teaching1.jpeg"
+                alt=""
+                className="img-fluid home-img img-radius"
+              />
+            </div>
+            <div className="col-12">
               <p>
                 My classes tend to be horizontal, favouring dialogue and
                 multi-modal participation. In my teaching, I connect class
@@ -41,15 +50,6 @@ export default function Teaching() {
                 collaborative tasks, which end with intensive independent work
                 for a practical project.
               </p>
-            </div>
-            <div className="col-12 col-md-3">
-              <img
-                src="media/Teaching1.jpeg"
-                alt=""
-                className="img-fluid home-img img-radius"
-              />
-            </div>
-            <div className="col-12">
               <p>
                 As I teach, I continue to actively learn how to be a better
                 lecturer and supervisor to my students. They also have different
