@@ -9,7 +9,7 @@ export default function Teaching() {
             Teaching Philosophy: Participatory, Inclusive and Creative
           </h2>
           <div className="row">
-            <div className="col-12 col-md-4 order-md-2">
+            <div className="col-12 col-md-4 order-md-2 text-center mb-2">
               <img
                 src="media/Teaching1.jpeg"
                 alt=""
