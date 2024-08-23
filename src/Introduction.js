@@ -5,14 +5,7 @@ export default function Introduction() {
     <main className="introduction">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-4 order-md-2">
-            <img
-              src="media/Home 2 - Introduction.jpg"
-              alt=""
-              className="img-fluid home-img img-radius"
-            />
-          </div>
-          <div className="col-12 col-md-8  order-md-1 d-flex flex-column justify-content-center">
+          <div className="col-12 col-md-9 flex-column justify-content-center">
             <p>
               Currently, I work at Tampere University within the ERC project
               WasteMatters. From September 2025, I will be a Ramón y Cajal
@@ -42,6 +35,13 @@ export default function Introduction() {
               constituted in relation to extractive activities and as the side
               effect of infrastructural harm.
             </p>
+          </div>
+          <div className="col-12 col-md-3">
+            <img
+              src="media/Home 2 - Introduction.jpg"
+              alt="Francisco"
+              className="img-fluid home-img img-radius"
+            />
           </div>
         </div>
 
