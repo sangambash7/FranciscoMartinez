@@ -35,7 +35,7 @@ export default function Teaching() {
                 that students can employ outside of the classroom.
               </p>
             </div>
-            <div className="col-12">
+            <div className="col-12 order-md-3">
               <p>
                 My classes tend to be horizontal, favouring dialogue and
                 multi-modal participation. In my teaching, I connect class
@@ -95,9 +95,7 @@ export default function Teaching() {
                 expectations.
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-12">
+            <div className="col-12 order-md-4">
               <p>
                 In 2019, I co-directed the MA programme in Art Museums and
                 Gallery Studies at the University of Leicester, where one of my
