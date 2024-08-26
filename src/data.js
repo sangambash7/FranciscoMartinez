@@ -112,7 +112,7 @@ const publicationsData = [
       "Anthropology of/at/from Home. A collective multimodal ethnography during the pandemic, with E. Berglund and A. Estalella",
     publisher: "Entanglements",
     year: "2021",
-    image: "10.jpeg",
+    image: "10.JPG",
     hyperlink: "Anthropology-Of-At-From-Home",
     category: "issue",
   },
@@ -313,6 +313,46 @@ const publicationsData = [
     image: "30.jpg",
     hyperlink: "Paseo-Circular",
     category: "novel",
+  },
+  {
+    id: 33,
+    namePublication:
+      "Cómo curar (y cuidar) de nuestras preguntas etnográficas de forma colaborativa y experimental",
+    publisher: "Xcol",
+    year: "2023",
+    image: "",
+    hyperlink: "Cómo-Curar",
+    category: "espanol",
+  },
+  {
+    id: 34,
+    namePublication:
+      "Agujeros de realidad. Des-diseñando el siglo XX en el este de Estonia",
+    publisher: "Diseña",
+    year: "2023",
+    image: "",
+    hyperlink: "Agujeros-De-Realidad",
+    category: "espanol",
+  },
+  {
+    id: 35,
+    namePublication:
+      "Límites etnográficos: una aproximación antropológica en tres experimentos creativos",
+    publisher: "Antípoda",
+    year: "2022",
+    image: "",
+    hyperlink: "Límites-Etnográficos",
+    category: "espanol",
+  },
+  {
+    id: 36,
+    namePublication:
+      "Antropología periférica. Los márgenes académicos como un espacio epistemológico",
+    publisher: "Revista Murciana de Antropología",
+    year: "2020",
+    image: "",
+    hyperlink: "Antropología-Periférica",
+    category: "espanol",
   },
 ];
 

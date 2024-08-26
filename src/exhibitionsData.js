@@ -5,15 +5,11 @@ const exhibitionsData = [
       '"Misreadings", with V. Gurov. Container Gallery of the Telliskivi Creative City, 2024',
     image: "1.jpeg",
   },
-  {
-    id: 14,
-    describtion: ". Glass Box of the Solaris Center (Tallinn), 2024",
-    image: "1.jpeg",
-  },
+
   {
     id: 2,
     describtion:
-      '"General Theory of Abandoned Books", with V. Gurov. Solaris Glass Box (Tallinn), 2024',
+      '"General Theory of Abandoned Books", with V. Gurov. Glass Box of the Solaris Center (Tallinn), 2024',
     image: "2.jpg",
     hyperlink:
       "https://news.err.ee/1609362296/gallery-abandoned-books-on-display-in-solaris-glass-house",

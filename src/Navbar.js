@@ -87,12 +87,23 @@ export default function Navbar() {
                       Novel
                     </Link>
                   </li>
+                  <li>
+                    <Link to="/español" className="dropdown-item">
+                      En español
+                    </Link>
+                  </li>
                 </ul>
               </li>
 
               <li className="nav-item navbar-menu-item">
                 <Link to="/Teaching" className="nav-link text-dark">
                   Teaching
+                </Link>
+              </li>
+
+              <li className="nav-item navbar-menu-item">
+                <Link to="/Supervision" className="nav-link text-dark">
+                  Supervision
                 </Link>
               </li>
 
@@ -105,12 +116,6 @@ export default function Navbar() {
               <li className="nav-item navbar-menu-item">
                 <Link to="/Interviews" className="nav-link text-dark">
                   Interviews
-                </Link>
-              </li>
-
-              <li className="nav-item navbar-menu-item">
-                <Link to="/Español" className="nav-link text-dark">
-                  En español
                 </Link>
               </li>
             </ul>
