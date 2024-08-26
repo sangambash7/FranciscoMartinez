@@ -418,4 +418,9 @@ h5 {
     height: 70%;
     object-position: right;
   }
+
+  .teaching .img-left {
+    height: 70%;
+    object-position: left;
+  }
 }

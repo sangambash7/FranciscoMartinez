@@ -9,7 +9,7 @@ export default function Teaching() {
             Teaching Philosophy: Participatory, Inclusive and Creative
           </h2>
           <div className="row">
-            <div className="col-12 col-md-4 order-md-2 d-flex align-items-center justify-content-center text-center mb-2">
+            <div className="col-12 col-md-4 order-md-2 d-flex align-items-center justify-content-center text-center mb-2 mb-md-1">
               <img
                 src="media/Teaching1.jpeg"
                 alt="Francisco"
@@ -65,6 +65,15 @@ export default function Teaching() {
                 to considering alternative perspectives and to push both the
                 analytical and writing processes forward.
               </p>
+            </div>
+            <div class="col-12 col-md-4 order-md-4 d-inline-flex align-items-center justify-content-center text-center mb-2 mb-md-1">
+              <img
+                src="media/Teaching2.jpg"
+                alt="Francisco"
+                class="img-fluid home-img img-radius img-left"
+              />
+            </div>
+            <div class="col-12 col-md-8 order-md-5">
               <p>
                 Teaching in higher education means being in contact with young,
                 inspiring yet often challenging people. During the last thirteen
@@ -82,6 +91,8 @@ export default function Teaching() {
                 of the courses I have taught (Material Culture, Ethnographic
                 methods, Social Design…)
               </p>
+            </div>
+            <div class="col-12 order-md-5">
               <p>
                 Lecturing in different countries and coordinating pedagogical
                 activities in different institutions gave me the muscle needed
@@ -94,8 +105,6 @@ export default function Teaching() {
                 making the students apt to disclose their doubts and
                 expectations.
               </p>
-            </div>
-            <div className="col-12 order-md-4">
               <p>
                 In 2019, I co-directed the MA programme in Art Museums and
                 Gallery Studies at the University of Leicester, where one of my
