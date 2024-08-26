@@ -115,7 +115,7 @@ export default function Navbar() {
 
               <li className="nav-item navbar-menu-item">
                 <Link to="/Interviews" className="nav-link text-dark">
-                  Interviews
+                  Interviews & Public Talks
                 </Link>
               </li>
             </ul>

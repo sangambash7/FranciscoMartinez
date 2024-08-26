@@ -6,14 +6,16 @@ export default function Exhibitions() {
   return (
     <main>
       <div className="exhibitions">
-        <ul className="exhibitions-list row">
-          {exhibitionsData.map((exhibition) => (
-            <Exhibition
-              exhibitionObj={exhibition}
-              key={exhibition.describtion}
-            />
-          ))}
-        </ul>
+        <div className="container-fluid">
+          <ul className="exhibitions-list row">
+            {exhibitionsData.map((exhibition) => (
+              <Exhibition
+                exhibitionObj={exhibition}
+                key={exhibition.describtion}
+              />
+            ))}
+          </ul>
+        </div>
       </div>
     </main>
   );

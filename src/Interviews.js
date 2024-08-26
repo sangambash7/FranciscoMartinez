@@ -51,6 +51,7 @@ export default function Interviews() {
   return (
     <main className="interview pt-5">
       <div className="container">
+        <h2>Interviews</h2>
         <Accordion>
           <Accordion.Item eventKey="0">
             <Accordion.Header>
@@ -1429,6 +1430,23 @@ export default function Interviews() {
                 </div>
               </div>
             </Accordion.Body>
+          </Accordion.Item>
+        </Accordion>
+        <h2>Public Talks</h2>
+        <Accordion>
+          <Accordion.Item eventKey="0">
+            <Accordion.Header>
+              The values of multimodal projects. Online seminar series, HU
+              Berlin
+            </Accordion.Header>
+            <Accordion.Body></Accordion.Body>
+          </Accordion.Item>
+          <Accordion.Item eventKey="1">
+            <Accordion.Header>
+              La invención etnográfica: &quot;Cómo curar (y cuidar) de nuestras
+              preguntas etnográficas&quot;. Xcol.
+            </Accordion.Header>
+            <Accordion.Body></Accordion.Body>
           </Accordion.Item>
         </Accordion>
       </div>
