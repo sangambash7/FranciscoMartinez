@@ -112,7 +112,8 @@ h5 {
   text-align: justify;
 }
 .teaching h2,
-.teaching h5 {
+.teaching h5,
+.supervision h2 {
   color: rgb(8, 62, 115);
 }
 
@@ -151,12 +152,12 @@ h5 {
   gap: 4rem;
 }
 
-.publications h2 {
+.publication-text h2 {
   display: inline-block;
   padding: 1rem 0;
   border-top: 2px solid currentColor;
   border-bottom: 2px solid currentColor;
-  font-size: 2.4rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 500;
@@ -212,10 +213,6 @@ h5 {
   font-size: 1.3rem;
   font-weight: 300;
   margin-bottom: auto;
-}
-
-.publication span {
-  /* display: block; */
 }
 
 .publication-nameCredit {
