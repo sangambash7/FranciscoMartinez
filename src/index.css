@@ -23,6 +23,7 @@ p {
 .home p,
 .introduction p,
 .teaching p,
+.supervision p,
 .accordion-body p {
   color: rgb(102, 102, 102);
   font-size: 1.15rem;
@@ -113,10 +114,6 @@ h5 {
 .teaching h2,
 .teaching h5 {
   color: rgb(8, 62, 115);
-}
-
-.teaching img {
-  /* display: block; */
 }
 
 .accordion-button {
@@ -414,12 +411,12 @@ h5 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .teaching img {
+  .img-right {
     height: 70%;
     object-position: right;
   }
 
-  .teaching .img-left {
+  .img-left {
     height: 70%;
     object-position: left;
   }

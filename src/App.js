@@ -14,6 +14,7 @@ import Exhibitions from "./Exhibitions";
 import Interviews from "./Interviews";
 import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
 import Espanol from "./Español";
+import Supervision from "./Supervision";
 import Navbar2 from "./Navbar2";
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
         <Route path="/Novel" element={<Novel />} />
         <Route path="/Exhibitions" element={<Exhibitions />} />
         <Route path="/Interviews" element={<Interviews />} />
+        <Route path="/Supervision" element={<Supervision />} />
         <Route path="/Español" element={<Espanol />} />
         <Route path="/The-Future-Of-Hiding" element={<TheFutureOfHiding />} />
       </Routes>
