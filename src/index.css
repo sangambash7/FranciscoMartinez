@@ -107,9 +107,9 @@ h5 {
 
 .introduction img {
   width: 30rem;
-  height: 30rem;
-  object-fit: cover;
-  object-position: left;
+  height: auto;
+  /* object-fit: cover;
+  object-position: left; */
 }
 
 /* TEACHING */
