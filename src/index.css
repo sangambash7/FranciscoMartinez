@@ -64,6 +64,10 @@ h5 {
   font-size: 1rem;
 }
 
+.navbar-menu-item a:hover {
+  color: red !important;
+}
+
 .keywords {
   font-size: 0.8rem;
   color: #6c757d;

@@ -6,6 +6,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import Vimeo from "@u-wave/react-vimeo";
+import LiteYouTubeEmbed from "react-lite-youtube-embed";
+import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 function InterviewSwiper() {
   return (
@@ -1439,14 +1442,23 @@ export default function Interviews() {
               The values of multimodal projects. Online seminar series, HU
               Berlin
             </Accordion.Header>
-            <Accordion.Body></Accordion.Body>
+            <Accordion.Body>
+              <div className="d-flex justify-content-center">
+                <Vimeo video="712849865" />
+              </div>
+            </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="1">
             <Accordion.Header>
               La invención etnográfica: &quot;Cómo curar (y cuidar) de nuestras
               preguntas etnográficas&quot;. Xcol.
             </Accordion.Header>
-            <Accordion.Body></Accordion.Body>
+            <Accordion.Body>
+              <LiteYouTubeEmbed
+                id="lSvkloru51g"
+                title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
+              />
+            </Accordion.Body>
           </Accordion.Item>
         </Accordion>
       </div>
