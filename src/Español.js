@@ -7,10 +7,8 @@ export default function PublicationEspanol() {
   return (
     <main>
       <div className="espanol">
-        <div className="container">
-          <PublicationsMenu />
-          <Espanol />
-        </div>
+        <PublicationsMenu />
+        <Espanol />
       </div>
     </main>
   );
