@@ -64,6 +64,11 @@ export default function Home() {
                 alt="Francisco"
                 className="img-fluid home-img img-radius"
               />
+              <img
+                src="media/2.jpg"
+                alt="Francisco"
+                className="img-fluid home-img img-radius"
+              />
             </div>
           </div>
         </div>
