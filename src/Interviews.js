@@ -1443,8 +1443,17 @@ export default function Interviews() {
               Berlin
             </Accordion.Header>
             <Accordion.Body>
-              <div className="d-flex justify-content-center">
-                <Vimeo video="712849865" />
+              <div className="row">
+                <div className="col-12 col-xl-6 interview-img-container">
+                  <img
+                    className="interview-img"
+                    src="media/interviews-imgs/13.jpeg"
+                    alt="Interview"
+                  ></img>
+                </div>
+                <div className="col-12 col-xl-6 d-flex justify-content-center">
+                  <Vimeo video="712849865" />
+                </div>
               </div>
             </Accordion.Body>
           </Accordion.Item>
@@ -1454,10 +1463,21 @@ export default function Interviews() {
               preguntas etnográficas&quot;. Xcol.
             </Accordion.Header>
             <Accordion.Body>
-              <LiteYouTubeEmbed
-                id="lSvkloru51g"
-                title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
-              />
+              <div className="row">
+                <div className="col-12 col-xl-6 interview-img-container">
+                  <img
+                    className="interview-img"
+                    src="media/interviews-imgs/13.jpeg"
+                    alt="Interview"
+                  ></img>
+                </div>
+              </div>
+              <div className="col-12 col-xl-6">
+                <LiteYouTubeEmbed
+                  id="lSvkloru51g"
+                  title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
+                />
+              </div>
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>
