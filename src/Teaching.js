@@ -66,14 +66,14 @@ export default function Teaching() {
                 analytical and writing processes forward.
               </p>
             </div>
-            <div class="col-12 col-md-4 order-md-4 d-inline-flex align-items-center justify-content-center text-center mb-2 mb-md-1">
+            <div className="col-12 col-md-4 order-md-4 d-inline-flex align-items-center justify-content-center text-center mb-2 mb-md-1">
               <img
                 src="media/Teaching2.jpg"
                 alt="Francisco"
-                class="img-fluid home-img img-radius img-left"
+                className="img-fluid home-img img-radius img-left"
               />
             </div>
-            <div class="col-12 col-md-8 order-md-5">
+            <div className="col-12 col-md-8 order-md-5">
               <p>
                 Teaching in higher education means being in contact with young,
                 inspiring yet often challenging people. During the last thirteen
@@ -92,7 +92,7 @@ export default function Teaching() {
                 methods, Social Design…)
               </p>
             </div>
-            <div class="col-12 order-md-5">
+            <div className="col-12 order-md-5">
               <p>
                 Lecturing in different countries and coordinating pedagogical
                 activities in different institutions gave me the muscle needed
@@ -121,213 +121,230 @@ export default function Teaching() {
             </div>
           </div>
         </div>
-      </div>
 
-      <div className="container">
-        <div id="accordion" className="accordion">
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseOne"
+        <div className="container-lg">
+          <div id="myaccordion" className="accordion">
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  type="button"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  1. Material Culture Now
+                </button>
+              </h2>
+              <div
+                className="accordion-collapse collapse"
+                id="collapseOne"
+                data-bs-parent="#myaccordion"
               >
-                1. Material Culture Now
-              </button>
-            </h2>
-            <div
-              className="accordion-collapse collapse"
-              id="collapseOne"
-              data-bs-parent="#myaccordion"
-            >
-              <div className="accordion-body">
-                <p>
-                  Materiality is no longer the sole concern of museum scholars
-                  and archaeologists, but a tangential focus of analysis for
-                  anyone interested in how objects establish social meanings on
-                  behalf of people. This course locates itself in the interface
-                  of various material culture-oriented disciplines, namely
-                  anthropology, art history, museum studies and archaeology. It
-                  focuses on the social and cultural implications of material
-                  experiences, examining people’s engagement with things, the
-                  affective aspects of this interactions, the significance of
-                  things in different contexts, the practices, relations, and
-                  rituals through which things become meaningful, as well as how
-                  things say about their owners and about social relationships.
-                  In this course, we will also discuss other related topics such
-                  as consumption, memory, valuation, obsolescence, clothing,
-                  aesthetics and digital technologies. Among our reading list,
-                  we will have both theoretical surveys as well as
-                  context-sensitive and nuanced accounts. Students will gain a
-                  conceptual understanding, methodological tools and theoretical
-                  knowledge on this field of studies. The independent work will
-                  be organised in the form of mini-ethnographies, offering
-                  insights into social relations and cultural representations
-                  through objects.
-                </p>
+                <div className="accordion-body">
+                  <p>
+                    Materiality is no longer the sole concern of museum scholars
+                    and archaeologists, but a tangential focus of analysis for
+                    anyone interested in how objects establish social meanings
+                    on behalf of people. This course locates itself in the
+                    interface of various material culture-oriented disciplines,
+                    namely anthropology, art history, museum studies and
+                    archaeology. It focuses on the social and cultural
+                    implications of material experiences, examining people’s
+                    engagement with things, the affective aspects of this
+                    interactions, the significance of things in different
+                    contexts, the practices, relations, and rituals through
+                    which things become meaningful, as well as how things say
+                    about their owners and about social relationships. In this
+                    course, we will also discuss other related topics such as
+                    consumption, memory, valuation, obsolescence, clothing,
+                    aesthetics and digital technologies. Among our reading list,
+                    we will have both theoretical surveys as well as
+                    context-sensitive and nuanced accounts. Students will gain a
+                    conceptual understanding, methodological tools and
+                    theoretical knowledge on this field of studies. The
+                    independent work will be organised in the form of
+                    mini-ethnographies, offering insights into social relations
+                    and cultural representations through objects.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseTwo"
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  type="button"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  2. Design, Anthropology and the Invention of the Social
+                </button>
+              </h2>
+              <div
+                className="accordion-collapse collapse"
+                id="collapseTwo"
+                data-bs-parent="#myaccordion"
               >
-                2. Design, Anthropology and the Invention of the Social
-              </button>
-            </h2>
-            <div
-              className="accordion-collapse collapse"
-              id="collapseTwo"
-              data-bs-parent="#myaccordion"
-            >
-              <div className="accordion-body">
-                <p>
-                  This course places anthropology and design at the centre of
-                  social and ecological issues and develops epistemic tools for
-                  dealing with contemporary challenges. It reverses the
-                  traditional approach by taking design as an epistemic
-                  activity, and anthropology as a material one. The course aims
-                  at expanding the interventive capacity of anthropology in
-                  societal issues, and how we can reconfigure political problems
-                  and their relevance. It starts by assuming that there is a
-                  need of equipping the rich middle ground in between
-                  ethnographic research and design practice, reflecting on the
-                  kind of spaces where different activities can mingle. By this
-                  gesture, social scientists have an opportunity to embrace new
-                  roles and validate emergent practices that have much to do
-                  with this look towards design. Hence, one of the key
-                  challenges that we will face is how to connect different
-                  communities of practice and traditions, while mutually
-                  improving our knowledge-making capacities.
-                </p>
+                <div className="accordion-body">
+                  <p>
+                    This course places anthropology and design at the centre of
+                    social and ecological issues and develops epistemic tools
+                    for dealing with contemporary challenges. It reverses the
+                    traditional approach by taking design as an epistemic
+                    activity, and anthropology as a material one. The course
+                    aims at expanding the interventive capacity of anthropology
+                    in societal issues, and how we can reconfigure political
+                    problems and their relevance. It starts by assuming that
+                    there is a need of equipping the rich middle ground in
+                    between ethnographic research and design practice,
+                    reflecting on the kind of spaces where different activities
+                    can mingle. By this gesture, social scientists have an
+                    opportunity to embrace new roles and validate emergent
+                    practices that have much to do with this look towards
+                    design. Hence, one of the key challenges that we will face
+                    is how to connect different communities of practice and
+                    traditions, while mutually improving our knowledge-making
+                    capacities.
+                  </p>
 
-                <p>
-                  This course will also enable a learning of ethnographic
-                  methods with and through design practices, exploring novel
-                  forms of doing social research together. Overall, we will
-                  learn about the productive grounds for conversations between a
-                  more designerly ethnography and ethnographic design practices,
-                  while accounting of the capacity of anthropology to experiment
-                  and advancing on how to reconfigure social problems and their
-                  relevance. The course contains theory, ethnographic insights,
-                  a guest lecture and a field trip. The independent work will be
-                  organised in the form of mini-ethnographies, offering insights
-                  into social relations, personal affections and cultural
-                  representations through physical things. Practitioners
-                  insights and mini-ethnographies will be complemented with
-                  group discussions as well as an interdisciplinary review of
-                  the relevant body of literature and in relation to our
-                  selected case studies or themes.
-                </p>
+                  <p>
+                    This course will also enable a learning of ethnographic
+                    methods with and through design practices, exploring novel
+                    forms of doing social research together. Overall, we will
+                    learn about the productive grounds for conversations between
+                    a more designerly ethnography and ethnographic design
+                    practices, while accounting of the capacity of anthropology
+                    to experiment and advancing on how to reconfigure social
+                    problems and their relevance. The course contains theory,
+                    ethnographic insights, a guest lecture and a field trip. The
+                    independent work will be organised in the form of
+                    mini-ethnographies, offering insights into social relations,
+                    personal affections and cultural representations through
+                    physical things. Practitioners insights and
+                    mini-ethnographies will be complemented with group
+                    discussions as well as an interdisciplinary review of the
+                    relevant body of literature and in relation to our selected
+                    case studies or themes.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseThree"
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  type="button"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  3. Repair and Care
+                </button>
+              </h2>
+              <div
+                className="accordion-collapse collapse"
+                id="collapseThree"
+                data-bs-parent="#myaccordion"
               >
-                3. Repair and Care
-              </button>
-            </h2>
-            <div
-              className="accordion-collapse collapse"
-              id="collapseThree"
-              data-bs-parent="#myaccordion"
-            >
-              <div className="accordion-body">
-                <p>
-                  What is gained from studying repair practices? What does it
-                  mean to claim that something is broken? And who measures the
-                  value of fixing up things? This course engages with
-                  contemporary discussions on the re-politicisation of the
-                  material by situating care and sustainability at the centre of
-                  politics. Repair has a stronger epistemic dimension than
-                  regeneration and resilience. It is intimately integrated
-                  within the existing ecologies of knowledge, and is both
-                  socially embedded and culturally informed, finding nuances
-                  rooted within local history, material culture and power
-                  relations. This course offers conceptual and methodological
-                  training for students to examine how relationships are
-                  sustained in relation to the maintenance of built forms,
-                  opening up a wide range of questions about responsibility,
-                  care-taking, and sustainability.
-                </p>
+                <div className="accordion-body">
+                  <p>
+                    What is gained from studying repair practices? What does it
+                    mean to claim that something is broken? And who measures the
+                    value of fixing up things? This course engages with
+                    contemporary discussions on the re-politicisation of the
+                    material by situating care and sustainability at the centre
+                    of politics. Repair has a stronger epistemic dimension than
+                    regeneration and resilience. It is intimately integrated
+                    within the existing ecologies of knowledge, and is both
+                    socially embedded and culturally informed, finding nuances
+                    rooted within local history, material culture and power
+                    relations. This course offers conceptual and methodological
+                    training for students to examine how relationships are
+                    sustained in relation to the maintenance of built forms,
+                    opening up a wide range of questions about responsibility,
+                    care-taking, and sustainability.
+                  </p>
 
-                <p>
-                  Our primary focus is about people doing things, handling
-                  situations: holding on, letting go; but we will also pay
-                  attention to the ordering strategies of institutions through
-                  repair and maintenance. Using a wide range of methodologies,
-                  field techniques, and theoretical approaches we will examine
-                  cross-cultural materialities of care and the repair done
-                  around us. The fieldwork observation will be complemented with
-                  group discussions as well as an interdisciplinary review of
-                  the relevant body of literature related to repair and
-                  organised in relation to our selected themes, learning to
-                  understand that repair is more than a technique.
-                </p>
+                  <p>
+                    Our primary focus is about people doing things, handling
+                    situations: holding on, letting go; but we will also pay
+                    attention to the ordering strategies of institutions through
+                    repair and maintenance. Using a wide range of methodologies,
+                    field techniques, and theoretical approaches we will examine
+                    cross-cultural materialities of care and the repair done
+                    around us. The fieldwork observation will be complemented
+                    with group discussions as well as an interdisciplinary
+                    review of the relevant body of literature related to repair
+                    and organised in relation to our selected themes, learning
+                    to understand that repair is more than a technique.
+                  </p>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div className="accordion-item">
-            <h2 className="accordion-header">
-              <button
-                className="accordion-button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapseFour"
+            <div className="accordion-item">
+              <h2 className="accordion-header">
+                <button
+                  className="accordion-button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  type="button"
+                  aria-expanded="true"
+                  aria-controls="collapseFour"
+                >
+                  4. Ethnographic Methods
+                </button>
+              </h2>
+              <div
+                className="accordion-collapse collapse"
+                id="collapseFour"
+                data-bs-parent="#myaccordion"
               >
-                4. Ethnographic Methods
-              </button>
-            </h2>
-            <div
-              className="accordion-collapse collapse"
-              id="collapseFour"
-              data-bs-parent="#myaccordion"
-            >
-              <div className="accordion-body">
-                <p>
-                  This course sets up to give the student a working familiarity
-                  with qualitative research methods and academic writing. It
-                  provides advanced introductions to a representative range of
-                  field techniques, including ethnography, participant
-                  observation, interviews, case studies, surveys, oral history,
-                  archival research, artistic experiments, soundscaping and
-                  literary descriptions. Students will hone their skills in
-                  applying theoretical knowledge to practical research, becoming
-                  a generator of reliable and useful information about the world
-                  and raising awareness and contributing to the understanding of
-                  actual social dynamics. Students will gain a knowledge of
-                  issues central to the conduct of qualitative research, such as
-                  validity and reliability, the political and ethical
-                  implications of social research, and the applicability of
-                  particular qualitative methods for particular research
-                  approaches and acquisition of funding.
-                </p>
+                <div className="accordion-body">
+                  <p>
+                    This course sets up to give the student a working
+                    familiarity with qualitative research methods and academic
+                    writing. It provides advanced introductions to a
+                    representative range of field techniques, including
+                    ethnography, participant observation, interviews, case
+                    studies, surveys, oral history, archival research, artistic
+                    experiments, soundscaping and literary descriptions.
+                    Students will hone their skills in applying theoretical
+                    knowledge to practical research, becoming a generator of
+                    reliable and useful information about the world and raising
+                    awareness and contributing to the understanding of actual
+                    social dynamics. Students will gain a knowledge of issues
+                    central to the conduct of qualitative research, such as
+                    validity and reliability, the political and ethical
+                    implications of social research, and the applicability of
+                    particular qualitative methods for particular research
+                    approaches and acquisition of funding.
+                  </p>
 
-                <p>
-                  Also, throughout our classes, students will learn how to
-                  design a meaningful and original research project and
-                  undertake the necessary work for collecting data. We will read
-                  contemporary works (accessing to inspiring examples and
-                  methodologies). The fieldwork observation will be complemented
-                  with group discussions as well as an interdisciplinary review
-                  of the relevant body of literature related to our selected
-                  theme or case studies. The independent work of the students
-                  will be organised around their own research interest. The
-                  course will also provide practical, hands-on experience in
-                  using selected methods. For their assignment, students will
-                  write a detailed proposal for a future research project based
-                  on preliminary research performed during the course.
-                </p>
+                  <p>
+                    Also, throughout our classes, students will learn how to
+                    design a meaningful and original research project and
+                    undertake the necessary work for collecting data. We will
+                    read contemporary works (accessing to inspiring examples and
+                    methodologies). The fieldwork observation will be
+                    complemented with group discussions as well as an
+                    interdisciplinary review of the relevant body of literature
+                    related to our selected theme or case studies. The
+                    independent work of the students will be organised around
+                    their own research interest. The course will also provide
+                    practical, hands-on experience in using selected methods.
+                    For their assignment, students will write a detailed
+                    proposal for a future research project based on preliminary
+                    research performed during the course.
+                  </p>
+                </div>
               </div>
             </div>
           </div>

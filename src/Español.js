@@ -6,10 +6,8 @@ import PublicationsMenu from "./PublicationsMenu";
 export default function PublicationEspanol() {
   return (
     <main>
-      <div className="espanol">
-        <PublicationsMenu />
-        <Espanol />
-      </div>
+      <PublicationsMenu />
+      <Espanol />
     </main>
   );
 }
