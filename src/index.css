@@ -106,8 +106,8 @@ h5 {
 }
 
 .introduction img {
-  width: auto;
-  height: 30rem;
+  width: 27rem;
+  height: auto;
   /* object-fit: cover;
   object-position: left; */
 }
@@ -411,6 +411,13 @@ h5 {
 
   .img-left {
     height: 70%;
+    object-position: left;
+  }
+
+  .introduction img {
+    width: 27rem;
+    height: auto;
+    object-fit: cover;
     object-position: left;
   }
 }
