@@ -1472,7 +1472,7 @@ export default function Interviews() {
                   ></img>
                 </div>
 
-                <div className="col-12 col-xl-6  d-flex justify-content-center">
+                <div className="col-12 col-xl-6">
                   <LiteYouTubeEmbed
                     id="lSvkloru51g"
                     title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
