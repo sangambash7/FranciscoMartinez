@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TheFutureOfHiding() {
+export default function RemainsOftheSovietTime() {
   return (
     <main>
       <div className="publication-container">

@@ -18,6 +18,7 @@ import Navbar2 from "./Navbar2";
 import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
 import Escondites from "./Monographs/Escondites";
 import EthnographicExperiments from "./Monographs/Ethnographic-Experiments-with-Artists";
+import RemainsOftheSovietTime from "./Monographs/Remains-of-the-Soviet-Time";
 
 function App() {
   return (
@@ -48,6 +49,10 @@ function App() {
         <Route
           path="/Ethnographic-Experiments-with-Artists"
           element={<EthnographicExperiments />}
+        />
+        <Route
+          path="/Remains-of-the-Soviet-Time"
+          element={<RemainsOftheSovietTime />}
         />
       </Routes>
     </Router>
