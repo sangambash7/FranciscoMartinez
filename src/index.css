@@ -415,8 +415,8 @@ h5 {
   }
 
   .introduction img {
-    width: 27rem;
-    height: auto;
+    width: auto;
+    height: 22rem;
     object-fit: cover;
     object-position: left;
   }
