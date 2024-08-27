@@ -27,14 +27,6 @@ export default function Introduction() {
               Collaborations, and editing the Berghahn book series Politics of
               Repair (with P. Laviolette).
             </p>
-            <p>
-              My research has sought to explore different forms of material care
-              and governance. For instance, my new monograph is The Future of
-              Hiding, which will be published by Cornell University Press in
-              2025, examines how a particular kind of sociality of secrecy is
-              constituted in relation to extractive activities and as the side
-              effect of infrastructural harm.
-            </p>
           </div>
           <div className="col-12 col-md-3">
             <img
@@ -46,6 +38,14 @@ export default function Introduction() {
         </div>
 
         <div className="row">
+          <p>
+            My research has sought to explore different forms of material care
+            and governance. For instance, my new monograph is The Future of
+            Hiding, which will be published by Cornell University Press in 2025,
+            examines how a particular kind of sociality of secrecy is
+            constituted in relation to extractive activities and as the side
+            effect of infrastructural harm.
+          </p>
           <p>
             Much of my research concerns how people relate to traces from the
             past as well as reconsiderations of what is deemed as unworthy of
