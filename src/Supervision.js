@@ -10,7 +10,7 @@ export default function Supervision() {
               <img
                 src="media/Supervision.jpeg"
                 alt="Supervision"
-                className="img-fluid home-img img-radius img-right"
+                className="img-fluid img-standard img-right"
               />
             </div>
             <div className="col-12 col-md-8 order-md-1">

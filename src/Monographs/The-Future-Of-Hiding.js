@@ -10,8 +10,7 @@ export default function TheFutureOfHiding() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            The Future of Hiding. Secrecy, Energy Infrastructure and the
-            Recolonization of Estonia’s Siberia. Cornell University Press, 2025.
+            The Future of Hiding. Cornell University Press, 2025.
           </h2>
           <p>
             The Future of Hiding analyzes the territorial dimensions of secrecy,

@@ -32,7 +32,7 @@ export default function Introduction() {
             <img
               src="media/Home 2 - Introduction.jpeg"
               alt="Francisco"
-              className="img-fluid home-img img-radius"
+              className="img-fluid img-standard"
             />
           </div>
         </div>

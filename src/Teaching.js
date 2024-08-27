@@ -13,7 +13,7 @@ export default function Teaching() {
               <img
                 src="media/Teaching1.jpeg"
                 alt="Francisco"
-                className="img-fluid home-img img-radius img-right"
+                className="img-fluid img-standard img-right"
               />
             </div>
             <div className="col-12 col-md-8 order-md-1">
@@ -70,7 +70,7 @@ export default function Teaching() {
               <img
                 src="media/Teaching2.jpg"
                 alt="Francisco"
-                className="img-fluid home-img img-radius img-left"
+                className="img-fluid img-standard img-left"
               />
             </div>
             <div className="col-12 col-md-8 order-md-5">

@@ -12,10 +12,12 @@ import PublicationSelectedArticles from "./SelectedArticles";
 import PublicationSelectedChapters from "./SelectedChapters";
 import Exhibitions from "./Exhibitions";
 import Interviews from "./Interviews";
-import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
 import Espanol from "./Español";
 import Supervision from "./Supervision";
 import Navbar2 from "./Navbar2";
+import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
+import Escondites from "./Monographs/Escondites";
+import EthnographicExperiments from "./Monographs/Ethnographic-Experiments-with-Artists";
 
 function App() {
   return (
@@ -42,6 +44,11 @@ function App() {
         <Route path="/Supervision" element={<Supervision />} />
         <Route path="/Español" element={<Espanol />} />
         <Route path="/The-Future-Of-Hiding" element={<TheFutureOfHiding />} />
+        <Route path="/Escondites" element={<Escondites />} />
+        <Route
+          path="/Ethnographic-Experiments-with-Artists"
+          element={<EthnographicExperiments />}
+        />
       </Routes>
     </Router>
   );

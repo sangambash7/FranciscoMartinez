@@ -10,11 +10,6 @@ main {
   min-height: 100vh;
 }
 
-/* UTILITY Classes */
-.img-radius {
-  border-radius: 0.5rem;
-}
-
 p {
   font-size: 1.2rem;
 }
@@ -34,6 +29,16 @@ h5 {
   display: flex;
   justify-content: center;
 }
+
+/* UTILITY Classes */
+.img-standard {
+  width: 25rem;
+  height: 35rem;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+/* Image Modal Stylings */
 
 /* Navbar */
 .navbar {
@@ -80,18 +85,10 @@ h5 {
   text-align: justify;
 }
 
-.home-img {
-  width: 25rem;
-  height: 35rem;
-  object-fit: cover;
-}
-
 .btn-home {
   width: auto;
   text-decoration: none;
   font-style: italic;
-  /* color: rgb(102, 102, 102);
-  font-size: 1.2rem; */
   color: #b91629 !important;
   font-size: 1rem;
 }
@@ -367,6 +364,7 @@ h5 {
   height: 30rem;
   width: 30rem;
   object-fit: cover;
+  border-radius: 0.5rem;
 }
 
 .interview p {
