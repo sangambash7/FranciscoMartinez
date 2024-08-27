@@ -5,7 +5,7 @@ export default function Introduction() {
     <main className="introduction">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-9 flex-column justify-content-center">
+          <div className="col-12 col-md-8 flex-column justify-content-center">
             <p>
               Currently, I work at Tampere University within the ERC project
               WasteMatters. From September 2025, I will be a Ramón y Cajal
@@ -28,7 +28,7 @@ export default function Introduction() {
               Repair (with P. Laviolette).
             </p>
           </div>
-          <div className="col-12 col-md-3">
+          <div className="col-12 col-md-4">
             <img
               src="media/Home 2 - Introduction.jpeg"
               alt="Francisco"
