@@ -4,10 +4,12 @@
 }
 
 main {
+  box-sizing: border-box;
   background-color: rgb(245, 239, 224);
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
   min-height: 100vh;
+  /* max-width: 100%; */
 }
 
 p {
