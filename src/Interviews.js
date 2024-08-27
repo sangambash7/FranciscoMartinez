@@ -1466,7 +1466,7 @@ export default function Interviews() {
               <div className="row">
                 <div className="col-12 col-xl-6 interview-img-container">
                   <img
-                    className="interview-img"
+                    style={{ width: "30rem" }}
                     src="media/interviews-imgs/14.png"
                     alt="Interview"
                   ></img>
