@@ -38,23 +38,10 @@ function Exhibition({ exhibitionObj }) {
         alt={exhibitionObj.describtion}
         style={{ cursor: "pointer" }}
         onClick={openFullscreen}
+        className="col-12 col-md-6"
       />
-      <div>
-        <p>
-          {exhibitionObj.describtion}.<br></br>
-        </p>
-
-        {/* {exhibitionObj.hyperlink ? (
-          <span>
-            <a
-              href={exhibitionObj.hyperlink}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Read More
-            </a>
-          </span>
-        ) : null} */}
+      <div className="align-self-center col-12 col-md-6">
+        <p>{exhibitionObj.describtion}.</p>
       </div>
     </li>
   );
