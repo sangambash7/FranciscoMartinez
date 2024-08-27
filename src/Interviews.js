@@ -1447,7 +1447,7 @@ export default function Interviews() {
                 <div className="col-12 col-xl-6 interview-img-container">
                   <img
                     className="interview-img"
-                    src="media/interviews-imgs/13.jpeg"
+                    src="media/interviews-imgs/13.jpg"
                     alt="Interview"
                   ></img>
                 </div>
@@ -1467,7 +1467,7 @@ export default function Interviews() {
                 <div className="col-12 col-xl-6 interview-img-container">
                   <img
                     className="interview-img"
-                    src="media/interviews-imgs/13.jpeg"
+                    src="media/interviews-imgs/14.png"
                     alt="Interview"
                   ></img>
                 </div>
