@@ -1446,7 +1446,7 @@ export default function Interviews() {
               <div className="row">
                 <div className="col-12 col-xl-6 interview-img-container">
                   <img
-                    className="interview-img"
+                    style={{ width: "30rem" }}
                     src="media/interviews-imgs/13.jpg"
                     alt="Interview"
                   ></img>
@@ -1471,12 +1471,13 @@ export default function Interviews() {
                     alt="Interview"
                   ></img>
                 </div>
-              </div>
-              <div className="col-12 col-xl-6">
-                <LiteYouTubeEmbed
-                  id="lSvkloru51g"
-                  title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
-                />
+
+                <div className="col-12 col-xl-6  d-flex justify-content-center">
+                  <LiteYouTubeEmbed
+                    id="lSvkloru51g"
+                    title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
+                  />
+                </div>
               </div>
             </Accordion.Body>
           </Accordion.Item>
