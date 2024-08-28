@@ -298,7 +298,7 @@ const publicationsData = [
   {
     id: 29,
     namePublication:
-      "Voids out of Place and Politics below the State in Georgia. In Repair, Brokenness, Breakthrough. F. Martínez & P. Laviolette (eds.)",
+      "What's in a Hole? Voids out of Place and Politics below the State in Georgia. In Repair, Brokenness, Breakthrough. F. Martínez & P. Laviolette (eds.)",
     publisher: "Berghahn",
     year: "2019",
     image: "29.jpeg",

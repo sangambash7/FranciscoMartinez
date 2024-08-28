@@ -38,9 +38,8 @@ function Exhibition({ exhibitionObj }) {
         alt={exhibitionObj.describtion}
         style={{ cursor: "pointer" }}
         onClick={openFullscreen}
-        className="col-12 col-md-6"
       />
-      <div className="align-self-center col-12 col-md-6">
+      <div className="align-self-center ">
         <p>{exhibitionObj.describtion}.</p>
       </div>
     </li>
