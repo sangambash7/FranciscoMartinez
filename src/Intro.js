@@ -64,11 +64,6 @@ export default function Home() {
                 alt="Francisco"
                 className="img-fluid img-standard"
               />
-              <img
-                src="media/2.jpg"
-                alt="Francisco"
-                className="img-fluid img-standard mt-3"
-              />
             </div>
           </div>
         </div>

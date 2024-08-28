@@ -16,14 +16,16 @@ p {
   font-size: 1.2rem;
 }
 
-.publication-text p,
 .home p,
 .introduction p,
+.publication-text p,
 .teaching p,
 .supervision p,
 .accordion-body p {
   color: rgb(102, 102, 102);
   font-size: 1.15rem;
+  text-align: justify;
+  line-height: 1.5rem;
 }
 
 h5 {
@@ -101,7 +103,7 @@ h5 {
 
 /* Introduction */
 .introduction p {
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .introduction img {
