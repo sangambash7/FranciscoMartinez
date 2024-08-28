@@ -62,7 +62,7 @@ export default function Home() {
               <img
                 src="media/1.jpeg"
                 alt="Francisco"
-                className="img-fluid img-standard"
+                className="img-fluid img-standard img-righty"
               />
             </div>
           </div>

@@ -420,12 +420,12 @@ h5 {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .img-right {
+  .img-righty {
     height: 70%;
     object-position: right;
   }
 
-  .img-left {
+  .img-lefty {
     height: 70%;
     object-position: left;
   }

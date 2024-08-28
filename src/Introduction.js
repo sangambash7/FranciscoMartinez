@@ -5,7 +5,7 @@ export default function Introduction() {
     <main className="introduction">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-md-8 flex-column justify-content-center">
+          <div className="col-12 col-md-8">
             <p>
               Currently, I work at Tampere University within the ERC project
               WasteMatters. From September 2025, I will be a Ramón y Cajal
@@ -28,7 +28,7 @@ export default function Introduction() {
               Repair (with P. Laviolette).
             </p>
           </div>
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4  d-inline-flex align-items-center justify-content-center text-center mb-2 mb-md-1">
             <img
               src="media/Home 2 - Introduction.jpeg"
               alt="Francisco"
@@ -81,7 +81,7 @@ export default function Introduction() {
             <img
               src="media/2.jpg"
               alt="Francisco"
-              className="img-fluid img-standard img-left"
+              className="img-fluid img-standard img-righty"
             />
           </div>
           <div className="col-12 col-md-8">
@@ -109,7 +109,6 @@ export default function Introduction() {
             </p>
           </div>
           <div className="col-12">
-            {" "}
             <p>
               For the exhibition Life in Decline (Estonian Mining Museum, 2021)
               I collaborated with a dozen of local artists and designers to
