@@ -107,6 +107,9 @@ export default function Introduction() {
               culture studies. An example of this is my curation of eleven
               exhibitions.
             </p>
+          </div>
+          <div className="col-12">
+            {" "}
             <p>
               For the exhibition Life in Decline (Estonian Mining Museum, 2021)
               I collaborated with a dozen of local artists and designers to
