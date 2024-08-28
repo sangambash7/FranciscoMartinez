@@ -3,7 +3,7 @@ const exhibitionsData = [
     id: 1,
     describtion:
       '"Misreadings", with V. Gurov. Container Gallery of the Telliskivi Creative City, 2024',
-    image: "1.jpeg",
+    image: "1.jpg",
   },
 
   {
