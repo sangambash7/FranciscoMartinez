@@ -211,6 +211,7 @@ const publicationsData = [
       "Waste and postsocialism in Estonia. Becoming European through the management of rubbish, with K. Beilmann",
     publisher: "Environment and Planning C: Politics and Space",
     year: "2019",
+    image: "19.png",
     hyperlink: "Waste-And-Postsocialism",
     category: "article",
   },
