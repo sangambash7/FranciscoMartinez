@@ -25,6 +25,11 @@ import RepairBrokennessBreakthrough from "./Monographs/Repair-Brokenness-Breakth
 import AestheticsofRepairInContemporaryGeorgia from "./Monographs/Aesthetics-of-Repair-in-Contemporary-Georgia";
 import HopelessYouth from "./Monographs/Hopeless-Youth";
 import PlaygroundsAndBattlefields from "./Monographs/Playgrounds-And-Battlefields";
+import LivingWithAndWithoutThings from "./Monographs/Living-With-And-Without-Things";
+import AnthropologyOfAtFromHome from "./Monographs/Anthropology-Of-At-From-Home";
+import BoundaryReWork from "./Monographs/Boundary-Re-Work";
+import ChangingMargins from "./Monographs/Changing-Margins";
+import RethinkingEuroAnthropology from "./Monographs/Rethinking-Euro-Anthropology";
 
 function App() {
   return (
@@ -80,6 +85,21 @@ function App() {
         <Route
           path="/Playgrounds-And-Battlefields"
           element={<PlaygroundsAndBattlefields />}
+        />
+
+        <Route
+          path="/Living-With-And-Without-Things"
+          element={<LivingWithAndWithoutThings />}
+        />
+        <Route
+          path="/Anthropology-Of-At-From-Home"
+          element={<AnthropologyOfAtFromHome />}
+        />
+        <Route path="/Boundary-Re-Work" element={<BoundaryReWork />} />
+        <Route path="/Changing-Margins" element={<ChangingMargins />} />
+        <Route
+          path="/Rethinking-Euro-Anthropology"
+          element={<RethinkingEuroAnthropology />}
         />
       </Routes>
     </Router>

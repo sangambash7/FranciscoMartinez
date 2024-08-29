@@ -5,7 +5,7 @@ export default function HopelessYouth() {
     <main>
       <div className="publication-container">
         <div className="publication-upper">
-          <img src="media/publications-imgs/5.jpg" alt="Publication" />
+          <img src="media/publications-imgs/31.jpeg" alt="Publication" />
         </div>
 
         <div className="publication-text mt-5">
