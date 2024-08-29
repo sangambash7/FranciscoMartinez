@@ -7,7 +7,7 @@ export default function Home() {
       <div className="home-intro">
         <div className="container">
           <div className="row g-5">
-            <div className="col-12 col-md-3 order-md-2">
+            <div className="col-12 col-md-3 order-md-2 align-items-center">
               <img
                 src="media/1.jpeg"
                 alt="Francisco"
