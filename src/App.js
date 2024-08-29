@@ -42,6 +42,11 @@ import AnaloguePhotoBooths from "./Monographs/Analogue-Photo-Booths";
 import DoingNothingAnthropology from "./Monographs/Doing-Nothing-Anthropology";
 import ThisPlaceHasPotential from "./Monographs/This-Place-Has-Potential";
 import WasteIsNotTheEnd from "./Monographs/Waste-Is-Not-The-End";
+import RemainingWithoutPreservation from "./Monographs/Remaining-Without-Preservation";
+import CoethnographersInThestorm from "./Monographs/Co-ethnographers-In-The-storm";
+import HowToMakeEthnographicResearch from "./Monographs/How-To-Make-Ethnographic-Research";
+import FooledIntoFieldwork from "./Monographs/Fooled-Into-Fieldwork";
+import VoidsOutOfPlace from "./Monographs/Voids-Out-Of-Place";
 
 function App() {
   return (
@@ -146,6 +151,24 @@ function App() {
           element={<ThisPlaceHasPotential />}
         />
         <Route path="/Waste-Is-Not-The-End" element={<WasteIsNotTheEnd />} />
+
+        <Route
+          path="/Remaining-Without-Preservation"
+          element={<RemainingWithoutPreservation />}
+        />
+        <Route
+          path="/Co-ethnographers-In-The-storm"
+          element={<CoethnographersInThestorm />}
+        />
+        <Route
+          path="/How-To-Make-Ethnographic-Research"
+          element={<HowToMakeEthnographicResearch />}
+        />
+        <Route
+          path="/Fooled-Into-Fieldwork"
+          element={<FooledIntoFieldwork />}
+        />
+        <Route path="/Voids-Out-Of-Place" element={<VoidsOutOfPlace />} />
       </Routes>
     </Router>
   );
