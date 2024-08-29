@@ -31,6 +31,18 @@ import BoundaryReWork from "./Monographs/Boundary-Re-Work";
 import ChangingMargins from "./Monographs/Changing-Margins";
 import RethinkingEuroAnthropology from "./Monographs/Rethinking-Euro-Anthropology";
 
+import GarbographyWasteMatter from "./Monographs/Garbography-Waste-Matter";
+import HitchhackingPassengerEthnography from "./Monographs/Hitchhacking-Passenger-Ethnography";
+import TimeToFix from "./Monographs/Time-To-Fix";
+import WhatKindOfDocuments from "./Monographs/What-Kind-Of-Documents";
+import MemoryDontSpeak from "./Monographs/Memory-Dont-Speak";
+import NarvaAsMethod from "./Monographs/Narva-As-Method";
+import WasteAndPostsocialism from "./Monographs/Waste-And-Postsocialism";
+import AnaloguePhotoBooths from "./Monographs/Analogue-Photo-Booths";
+import DoingNothingAnthropology from "./Monographs/Doing-Nothing-Anthropology";
+import ThisPlaceHasPotential from "./Monographs/This-Place-Has-Potential";
+import WasteIsNotTheEnd from "./Monographs/Waste-Is-Not-The-End";
+
 function App() {
   return (
     <Router>
@@ -101,6 +113,39 @@ function App() {
           path="/Rethinking-Euro-Anthropology"
           element={<RethinkingEuroAnthropology />}
         />
+
+        <Route
+          path="/Garbography-Waste-Matter"
+          element={<GarbographyWasteMatter />}
+        />
+        <Route
+          path="/Hitchhacking-Passenger-Ethnography"
+          element={<HitchhackingPassengerEthnography />}
+        />
+        <Route path="/Time-To-Fix" element={<TimeToFix />} />
+        <Route
+          path="/What-Kind-Of-Documents"
+          element={<WhatKindOfDocuments />}
+        />
+        <Route path="/Memory-Dont-Speak" element={<MemoryDontSpeak />} />
+        <Route path="/Narva-As-Method" element={<NarvaAsMethod />} />
+        <Route
+          path="/Waste-And-Postsocialism"
+          element={<WasteAndPostsocialism />}
+        />
+        <Route
+          path="/Analogue-Photo-Booths"
+          element={<AnaloguePhotoBooths />}
+        />
+        <Route
+          path="/Doing-Nothing-Anthropology"
+          element={<DoingNothingAnthropology />}
+        />
+        <Route
+          path="/This-Place-Has-Potential"
+          element={<ThisPlaceHasPotential />}
+        />
+        <Route path="/Waste-Is-Not-The-End" element={<WasteIsNotTheEnd />} />
       </Routes>
     </Router>
   );

@@ -242,7 +242,7 @@ const publicationsData = [
     publisher: "Suomen Antropologi",
     year: "2018",
     image: "23.jpeg",
-    hyperlink: "This-Place-Has-Potential”",
+    hyperlink: "This-Place-Has-Potential",
     category: "article",
   },
   {
@@ -272,7 +272,7 @@ const publicationsData = [
     publisher: "Routledge",
     year: "2024",
     image: "26.jpg",
-    hyperlink: "Co-ethnographers-In-The_storm",
+    hyperlink: "Co-ethnographers-In-The-storm",
     category: "chapter",
   },
   {
