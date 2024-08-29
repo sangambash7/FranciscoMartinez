@@ -7,7 +7,14 @@ export default function Home() {
       <div className="home-intro">
         <div className="container">
           <div className="row g-5">
-            <div className="col-12 col-md-9 d-flex flex-column justify-content-center">
+            <div className="col-12 col-md-3 order-md-2">
+              <img
+                src="media/1.jpeg"
+                alt="Francisco"
+                className="img-fluid img-standard img-righty"
+              />
+            </div>
+            <div className="col-12 col-md-9 order-md-1 d-flex flex-column justify-content-center">
               <p>
                 I am an anthropologist dealing with contemporary issues of
                 material culture through ethnographic experiments.
@@ -57,13 +64,6 @@ export default function Home() {
               <Link to="/Introduction" className="btn-home">
                 More About Me &#8594;
               </Link>
-            </div>
-            <div className="col-12 col-md-3">
-              <img
-                src="media/1.jpeg"
-                alt="Francisco"
-                className="img-fluid img-standard img-righty"
-              />
             </div>
           </div>
         </div>
