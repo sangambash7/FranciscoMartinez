@@ -19,6 +19,12 @@ import TheFutureOfHiding from "./Monographs/The-Future-Of-Hiding";
 import Escondites from "./Monographs/Escondites";
 import EthnographicExperiments from "./Monographs/Ethnographic-Experiments-with-Artists";
 import RemainsOftheSovietTime from "./Monographs/Remains-of-the-Soviet-Time";
+import PeripheralMethodologies from "./Monographs/Peripheral-Methodologies";
+import PoliticsOfRecuperation from "./Monographs/Politics-Of-Recuperation";
+import RepairBrokennessBreakthrough from "./Monographs/Repair-Brokenness-Breakthrough";
+import AestheticsofRepairInContemporaryGeorgia from "./Monographs/Aesthetics-of-Repair-in-Contemporary-Georgia";
+import HopelessYouth from "./Monographs/Hopeless-Youth";
+import PlaygroundsAndBattlefields from "./Monographs/Playgrounds-And-Battlefields";
 
 function App() {
   return (
@@ -53,6 +59,27 @@ function App() {
         <Route
           path="/Remains-of-the-Soviet-Time"
           element={<RemainsOftheSovietTime />}
+        />
+        <Route
+          path="/Peripheral-Methodologies"
+          element={<PeripheralMethodologies />}
+        />
+        <Route
+          path="/Politics-Of-Recuperation"
+          element={<PoliticsOfRecuperation />}
+        />
+        <Route
+          path="/Repair-Brokenness-Breakthrough"
+          element={<RepairBrokennessBreakthrough />}
+        />
+        <Route
+          path="/Aesthetics-of-Repair-in-Contemporary-Georgia"
+          element={<AestheticsofRepairInContemporaryGeorgia />}
+        />
+        <Route path="/Hopeless-Youth" element={<HopelessYouth />} />
+        <Route
+          path="/Playgrounds-And-Battlefields"
+          element={<PlaygroundsAndBattlefields />}
         />
       </Routes>
     </Router>
