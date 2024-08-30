@@ -56,7 +56,7 @@ import AntropologíaPeriférica from "./Monographs/Antropología-Periférica";
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Navbar2 />
       <Routes>
         <Route path="/" element={<Intro />} />
         <Route path="/Introduction" element={<Introduction />} />
