@@ -10,7 +10,14 @@ export default function LivingWithAndWithoutThings() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Living with and without Things, with T. Errázuriz.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.tandfonline.com/doi/full/10.1080/17406315.2024.2347703"
+            >
+              Living with and without Things, with T. Errázuriz.
+            </a>
             <br />
             EHome Cultures, 2024.
           </h2>

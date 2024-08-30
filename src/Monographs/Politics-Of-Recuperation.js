@@ -10,8 +10,15 @@ export default function PoliticsOfRecuperation() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Politics of Recuperation. Repair and Recovery in Post-crisis
-            Portugal.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.routledge.com/Politics-of-Recuperation-Repair-and-Recovery-in-Post-Crisis-Portugal/Martinez/p/book/9781350133051"
+            >
+              Politics of Recuperation. Repair and Recovery in Post-crisis
+              Portugal.
+            </a>
             <br />
             Bloomsbury, 2020
           </h2>

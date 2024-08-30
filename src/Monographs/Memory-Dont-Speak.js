@@ -10,8 +10,15 @@ export default function MemoryDontSpeak() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Memory, don’t speak! Monumental neglect and memorial sacrifice in
-            contemporary Estonia.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://journals.sagepub.com/doi/full/10.1177/14744740211005517"
+            >
+              Memory, don’t speak! Monumental neglect and memorial sacrifice in
+              contemporary Estonia.
+            </a>
             <br />
             Cultural Geographies 2021
           </h2>

@@ -10,8 +10,15 @@ export default function RethinkingEuroAnthropology() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            CRethinking Euro-Anthropology. Part Three. Early career scholars
-            forum.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://onlinelibrary.wiley.com/doi/10.1111/1469-8676.12327"
+            >
+              CRethinking Euro-Anthropology. Part Three. Early career scholars
+              forum.
+            </a>
             <br />
             Social Anthropology, 2017.
           </h2>

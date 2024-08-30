@@ -10,8 +10,15 @@ export default function DoingNothingAnthropology() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Doing nothing: Anthropology sits at the same table with contemporary
-            art in Lisbon and Tbilisi.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://journals.sagepub.com/doi/abs/10.1177/1466138118782549"
+            >
+              Doing nothing: Anthropology sits at the same table with
+              contemporary art in Lisbon and Tbilisi.
+            </a>
             <br />
             Ethnography, 2018
           </h2>

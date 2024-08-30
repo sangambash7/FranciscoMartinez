@@ -10,7 +10,14 @@ export default function ChangingMargins() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Changing margins and relations within European anthropology.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://ojs.unica.it/index.php/anuac/article/view/3630"
+            >
+              Changing margins and relations within European anthropology.
+            </a>
             <br />
             ANUAC, 2019.
           </h2>

@@ -10,14 +10,38 @@ export default function PaseoCircular() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Paseo Circular.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://editorial.bifurcaciones.cl/producto/paseo-circular/"
+            >
+              Paseo Circular.
+            </a>
             <br />
             Bifurcaciones, 2021
             <br />
-            Translated into Estonian as Kuidas Asju Lõpetada (Vikerkaar, 2023).
+            Translated into Estonian as{" "}
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.vikerkaar.ee/archives/29728"
+            >
+              Kuidas Asju Lõpetada
+            </a>{" "}
+            (Vikerkaar, 2023).
             <br />
-            Some excerpts have been published in English in the article ‘How to
-            write things. Fiction, anthropology and foreignness in Berlin’.
+            Some excerpts have been published in English in the article{" "}
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://ee.openlibhums.org/article/id/9032/"
+            >
+              ‘How to write things. Fiction, anthropology and foreignness in
+              Berlin’.
+            </a>
             Ethnologia Europaea, 2023.
           </h2>
           <p>

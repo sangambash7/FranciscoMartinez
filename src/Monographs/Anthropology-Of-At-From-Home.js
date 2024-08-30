@@ -10,8 +10,15 @@ export default function AnthropologyOfAtFromHome() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Anthropology of/at/from Home. A collective multimodal ethnography
-            during the pandemic, with E. Berglund and A. Estalella.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://entanglementsjournal.wordpress.com/anthropology-of-at-from-home-introduction/"
+            >
+              Anthropology of/at/from Home. A collective multimodal ethnography
+              during the pandemic, with E. Berglund and A. Estalella.
+            </a>
             <br />
             Entanglements, 2021.
           </h2>

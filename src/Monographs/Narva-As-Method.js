@@ -10,8 +10,15 @@ export default function NarvaAsMethod() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Narva as Method. Urban Inventories and the Mutation of the
-            Post-Socialist City.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.berghahnjournals.com/view/journals/ajec/29/2/ajec290205.xml"
+            >
+              Narva as Method. Urban Inventories and the Mutation of the
+              Post-Socialist City.
+            </a>
             <br />
             Anthropological Journal of European Cultures, 2020
           </h2>

@@ -10,8 +10,15 @@ export default function AnaloguePhotoBooths() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Analogue photo booths in Berlin: A stage, a trap, a condenser, and
-            four shots for kissing the person you love.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.therai.org.uk/images/stories/photography/AnthandPhotoVol9.pdf"
+            >
+              Analogue photo booths in Berlin: A stage, a trap, a condenser, and
+              four shots for kissing the person you love.
+            </a>
             <br />
             Anthropology and Photography, 2018
           </h2>

@@ -10,8 +10,16 @@ export default function RepairBrokennessBreakthrough() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Repair, Brokenness, Breakthrough. Ethnographic Responses. Edited
-            with Patrick Laviolette.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.berghahnbooks.com/title/MartinezRepair"
+            >
+              Repair, Brokenness, Breakthrough. Ethnographic Responses.
+            </a>
+            <br />
+            Edited with Patrick Laviolette.
             <br />
             Berghahn, 2019
           </h2>

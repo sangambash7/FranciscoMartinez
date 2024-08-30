@@ -10,8 +10,15 @@ export default function PeripheralMethodologies() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Peripheral Methodologies: Unlearning, Not-knowing and Ethnographic
-            Limits.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.routledge.com/Peripheral-Methodologies-Unlearning-Not-knowing-and-Ethnographic-Limits/Martinez-Puppo-Frederiksen/p/book/9781350173071"
+            >
+              Peripheral Methodologies: Unlearning, Not-knowing and Ethnographic
+              Limits.
+            </a>
             <br />
             Edited with Lili Di Puppo & Martin D Frederiksen.
             <br />

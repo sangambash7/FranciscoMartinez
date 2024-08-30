@@ -10,8 +10,15 @@ export default function WasteAndPostsocialism() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Waste and postsocialism in Estonia. Becoming European through the
-            management of rubbish, with K. Beilmann.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://journals.sagepub.com/doi/abs/10.1177/2399654420925083"
+            >
+              Waste and postsocialism in Estonia. Becoming European through the
+              management of rubbish, with K. Beilmann.
+            </a>
             <br />
             Environment and Planning C: Politics and Space, 2019
           </h2>

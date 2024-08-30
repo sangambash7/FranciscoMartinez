@@ -10,8 +10,15 @@ export default function WhatKindOfDocuments() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            What kind of documents do curators produce? Contemporary cases from
-            Estonia
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://onlinelibrary.wiley.com/doi/abs/10.1111/cura.12550"
+            >
+              What kind of documents do curators produce? Contemporary cases
+              from Estonia.
+            </a>
             <br />
             Curator, the Museum Journal, 2023
           </h2>

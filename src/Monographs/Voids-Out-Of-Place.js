@@ -10,8 +10,15 @@ export default function VoidsOutOfPlace() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            What's in a Hole? Voids out of Place and Politics below the State in
-            Georgia.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.berghahnbooks.com/title/MartinezRepair"
+            >
+              What's in a Hole? Voids out of Place and Politics below the State
+              in Georgia.
+            </a>
             <br />
             In Repair, Brokenness, Breakthrough. F. Martínez & P. Laviolette
             (eds.)

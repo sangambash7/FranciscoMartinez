@@ -10,8 +10,15 @@ export default function CómoCurar() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Cómo curar (y cuidar) de nuestras preguntas etnográficas de forma
-            colaborativa y experimental.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://xcol.org/invention/como-curar-y-cuidar-de-nuestras-preguntas-etnograficas-de-forma-colaborativa-y-experimental/"
+            >
+              Cómo curar (y cuidar) de nuestras preguntas etnográficas de forma
+              colaborativa y experimental.
+            </a>
             <br />
             Xcol 2023
           </h2>

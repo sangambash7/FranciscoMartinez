@@ -12,7 +12,16 @@ export default function HowToMakeEthnographicResearch() {
           <h2 className="mb-4">
             How to make ethnographic research with exhibitions.
             <br />
-            In An Ethnographic Inventory. A. Estalella & T.S Criado (eds.)
+            In{" "}
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.routledge.com/An-Ethnographic-Inventory-Field-Devices-for-Anthropological-Inquiry/Criado-Estalella/p/book/9781032124391"
+            >
+              An Ethnographic Inventory.
+            </a>{" "}
+            A. Estalella & T.S Criado (eds.)
             <br />
             Routledge, 2023
           </h2>

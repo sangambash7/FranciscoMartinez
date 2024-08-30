@@ -10,8 +10,15 @@ export default function AgujerosDeRealidad() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Agujeros de realidad. Des-diseñando el siglo XX en el este de
-            Estonia.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://ojs.uc.cl/index.php/Disena/article/view/58759/53799"
+            >
+              Agujeros de realidad. Des-diseñando el siglo XX en el este de
+              Estonia.
+            </a>
             <br />
             Diseña 2023
           </h2>

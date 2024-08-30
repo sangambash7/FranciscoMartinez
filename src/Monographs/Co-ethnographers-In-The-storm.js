@@ -11,7 +11,15 @@ export default function CoethnographersInThestorm() {
         <div className="publication-text mt-5">
           <h2 className="mb-4">
             Co-ethnographers in the storm: Investigating post-socialist decline
-            with contemporary artists. In The Trouble with Art.
+            with contemporary artists. In{" "}
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.routledge.com/The-Trouble-With-Art-An-Anthropology-Beyond-Philistinism/Sansi-Tinius/p/book/9781032223919"
+            >
+              The Trouble with Art.
+            </a>
             <br />
             R. Sansi and J. Tinius.
             <br />

@@ -10,8 +10,15 @@ export default function FooledIntoFieldwork() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Fooled into Fieldwork: Epistemic Detours of an Accidental
-            Anthropologist.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.taylorfrancis.com/chapters/edit/10.4324/9781003103646-13/fooled-fieldwork-francisco-mart%C3%ADnez"
+            >
+              Fooled into Fieldwork: Epistemic Detours of an Accidental
+              Anthropologist.
+            </a>
             <br />
             in Peripheral Methodologies. F. Martínez, L. Di Puppo & M.
             Frederiksen eds.

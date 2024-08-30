@@ -10,7 +10,14 @@ export default function TimeToFix() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Time to fix: Repair heuristics in Estonia and Portugal.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://journals.openedition.org/etnografica/14509"
+            >
+              Time to fix: Repair heuristics in Estonia and Portugal.
+            </a>
             <br />
             Etnográfica, 2023
           </h2>

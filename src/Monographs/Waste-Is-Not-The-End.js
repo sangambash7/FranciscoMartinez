@@ -10,8 +10,15 @@ export default function WasteIsNotTheEnd() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Waste is not the end. For an anthropology of care, maintenance and
-            repair.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://onlinelibrary.wiley.com/doi/abs/10.1111/1469-8676.12436"
+            >
+              Waste is not the end. For an anthropology of care, maintenance and
+              repair.
+            </a>
             <br />
             Social Anthropology, 2017
           </h2>

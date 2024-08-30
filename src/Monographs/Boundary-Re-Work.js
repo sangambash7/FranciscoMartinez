@@ -10,8 +10,15 @@ export default function BoundaryReWork() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Boundary Re-Work in European Anthropology: Conceptual and Historical
-            Explorations.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.berghahnjournals.com/view/journals/ajec/29/2/ajec.29.issue-2.xml"
+            >
+              Boundary Re-Work in European Anthropology: Conceptual and
+              Historical Explorations.
+            </a>
             <br />
             Anthropological Journal of European Cultures, 2020
           </h2>

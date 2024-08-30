@@ -11,7 +11,15 @@ export default function RemainingWithoutPreservation() {
         <div className="publication-text mt-5">
           <h2 className="mb-4">
             Remaining without preservation: The unfitness of Kino Rodina as
-            zombie heritage. In Connecting with Ambivalent Heritage.
+            zombie heritage. In{" "}
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://www.bloomsbury.com/uk/connecting-with-ambivalent-heritage-9781350426740/"
+            >
+              Connecting with Ambivalent Heritage.
+            </a>
             <br />
             T. Äikäs and T. Matila (ed.)
             <br />

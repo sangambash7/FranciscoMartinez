@@ -10,8 +10,15 @@ export default function AntropologíaPeriférica() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            Antropología periférica. Los márgenes académicos como un espacio
-            epistemológico.
+            <a
+              className="publication-link"
+              target="_blank"
+              rel="noreferrer"
+              href="https://revistas.um.es/rmu/article/view/449291"
+            >
+              Antropología periférica. Los márgenes académicos como un espacio
+              epistemológico.
+            </a>
             <br />
             Revista Murciana de Antropología 2020
           </h2>

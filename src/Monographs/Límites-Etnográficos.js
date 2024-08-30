@@ -11,7 +11,7 @@ export default function LímitesEtnográficos() {
         <div className="publication-text mt-5">
           <h2 className="mb-4">
             Límites etnográficos: una aproximación antropológica en tres
-            experimentos creativos
+            experimentos creativos.
             <br />
             Antípoda 2022
           </h2>
