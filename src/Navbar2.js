@@ -71,9 +71,12 @@ export default function Navbar2() {
                 <Link to="/" className="text-dark text-decoration-none">
                   <span className="fs-5 d-block">Francisco Martinez</span>
 
-                  <span className="keywords d-none d-lg-block">
-                    Material Culture • Experimental Ethnography • Waste & Repair
-                    <br />• European Peripheries • Art & Anthropology
+                  <span
+                    className="keywords d-none d-lg-block"
+                    style={{ lineHeight: "0.8rem" }}
+                  >
+                    Material Culture • Experimental Ethnography <br />• Waste &
+                    Repair • European Peripheries <br />• Art & Anthropology
                   </span>
                 </Link>
               </h5>
@@ -173,6 +176,15 @@ export default function Navbar2() {
                         Novel
                       </Link>
                     </li>
+                    <li>
+                      <Link
+                        to="/español"
+                        className="dropdown-item"
+                        onClick={(event) => handleNavClick(event, "/español")}
+                      >
+                        En español
+                      </Link>
+                    </li>
                   </ul>
                 </li>
 
@@ -183,6 +195,15 @@ export default function Navbar2() {
                     onClick={(event) => handleNavClick(event, "/Teaching")}
                   >
                     Teaching
+                  </Link>
+                </li>
+                <li className="nav-item navbar-menu-item mx-2">
+                  <Link
+                    to="/Supervision"
+                    className="nav-link text-dark"
+                    onClick={(event) => handleNavClick(event, "/Supervision")}
+                  >
+                    Supervision
                   </Link>
                 </li>
                 <li className="nav-item navbar-menu-item mx-2">
@@ -200,16 +221,7 @@ export default function Navbar2() {
                     className="nav-link text-dark"
                     onClick={(event) => handleNavClick(event, "/Interviews")}
                   >
-                    Interviews
-                  </Link>
-                </li>
-                <li className="nav-item navbar-menu-item mx-2">
-                  <Link
-                    to="/Español"
-                    className="nav-link text-dark"
-                    onClick={(event) => handleNavClick(event, "/Español")}
-                  >
-                    En español
+                    Interviews & Talks
                   </Link>
                 </li>
               </ul>
