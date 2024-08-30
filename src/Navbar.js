@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="navbar navbar-expand-md pb-3">
-        <div className="container-xl">
+        <div className="container-fluid">
           <button
             type="button"
             data-bs-toggle="collapse"
@@ -31,7 +31,7 @@ export default function Navbar() {
 
                   <span
                     className="keywords d-none d-lg-block"
-                    style={{ fontSize: "0.7rem", lineHeight: "0.8rem" }}
+                    style={{ lineHeight: "0.8rem" }}
                   >
                     Material Culture • Experimental Ethnography <br />• Waste &
                     Repair • European Peripheries <br />• Art & Anthropology

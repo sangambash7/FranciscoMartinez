@@ -24,7 +24,7 @@ const exhibitionsData = [
   {
     id: 4,
     describtion:
-      '"Keeping Things in the Dark", in Decolonial Ecologies. Riga Art Hall, 2022/2023',
+      '"Keeping Things in the Dark", with A. Škodenko, D. Popolitova, and V. Gurov. In Riga At Hall, Sillamäe Museum, EKA Gallery, 2022/2023',
     image: "4.jpeg",
     hyperlink:
       "https://arterritory.com/en/visual_arts/on_site/26903-keeping_things_in_the_dark_again/",

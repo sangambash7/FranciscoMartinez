@@ -47,6 +47,11 @@ import CoethnographersInThestorm from "./Monographs/Co-ethnographers-In-The-stor
 import HowToMakeEthnographicResearch from "./Monographs/How-To-Make-Ethnographic-Research";
 import FooledIntoFieldwork from "./Monographs/Fooled-Into-Fieldwork";
 import VoidsOutOfPlace from "./Monographs/Voids-Out-Of-Place";
+import PaseoCircular from "./Monographs/Paseo-Circular";
+import CómoCurar from "./Monographs/Cómo-Curar";
+import AgujerosDeRealidad from "./Monographs/Agujeros-De-Realidad";
+import LímitesEtnográficos from "./Monographs/Límites-Etnográficos";
+import AntropologíaPeriférica from "./Monographs/Antropología-Periférica";
 
 function App() {
   return (
@@ -169,6 +174,14 @@ function App() {
           element={<FooledIntoFieldwork />}
         />
         <Route path="/Voids-Out-Of-Place" element={<VoidsOutOfPlace />} />
+        <Route path="/Paseo-Circular" element={<PaseoCircular />} />
+        <Route path="/Cómo-Curar" element={<CómoCurar />} />
+        <Route path="/Agujeros-De-Realidad" element={<AgujerosDeRealidad />} />
+        <Route path="/Límites-Etnográficos" element={<LímitesEtnográficos />} />
+        <Route
+          path="/Antropología-Periférica"
+          element={<AntropologíaPeriférica />}
+        />
       </Routes>
     </Router>
   );
