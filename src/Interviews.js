@@ -1451,7 +1451,7 @@ export default function Interviews() {
                     alt="Interview"
                   ></img>
                 </div>
-                <div className="col-12 col-xl-6 d-flex justify-content-center">
+                <div className="col-12 col-xl-6 d-flex justify-content-center mt-2 mt-xl-0">
                   <Vimeo video="712849865" />
                 </div>
               </div>
@@ -1472,7 +1472,7 @@ export default function Interviews() {
                   ></img>
                 </div>
 
-                <div className="col-12 col-xl-6">
+                <div className="col-12 col-xl-6 mt-2 mt-xl-0">
                   <LiteYouTubeEmbed
                     id="lSvkloru51g"
                     title='La invención etnográfica 2: "Cómo curar (y cuidar) de nuestras preguntas etnográficas"'
