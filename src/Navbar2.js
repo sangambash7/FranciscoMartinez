@@ -43,8 +43,8 @@ export default function Navbar2() {
             <span className="fs-5 d-block">Francisco Martinez</span>
 
             <span className="keywords d-none d-lg-block">
-              Material Culture • Experimental Ethnography • Waste & Repair
-              <br />• European Peripheries • Art & Anthropology
+              Material Culture • Experimental Ethnography <br />• Waste & Repair
+              • European Peripheries <br />• Art & Anthropology
             </span>
           </Link>
 
