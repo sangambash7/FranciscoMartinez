@@ -412,9 +412,15 @@ h5 {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .navbar-menu-item a {
     font-size: 1.1rem !important;
+  }
+
+  .sticky-mobile {
+    position: sticky !important;
+    top: 0;
+    z-index: 1020;
   }
 }
 

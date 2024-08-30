@@ -37,7 +37,7 @@ export default function Navbar2() {
 
   return (
     <>
-      <nav className="navbar navbar-expand-md bg-body-tertiary">
+      <nav className="navbar navbar-expand-md bg-body-tertiary sticky-mobile">
         <div className="container-xl">
           <Link to="/" className="text-dark text-decoration-none">
             <span className="fs-5 d-block">Francisco Martinez</span>
