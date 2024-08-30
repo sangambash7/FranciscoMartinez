@@ -42,8 +42,6 @@ h5 {
   border-radius: 0.5rem;
 }
 
-/* Image Modal Stylings */
-
 /* Navbar */
 .navbar {
   position: relative;
@@ -125,13 +123,6 @@ h5 {
 
 .accordion-button {
   color: red !important;
-}
-
-/* EXHIBITIONS */
-
-.exhibitions h5 {
-  color: rgb(0, 0, 0);
-  font-family: "Lora", serif;
 }
 
 /* PUBLICATIONS */
@@ -288,6 +279,7 @@ h5 {
 }
 
 /* Exhibitions Styling */
+
 .exhibitions {
   display: flex;
   flex-direction: column;
@@ -305,6 +297,11 @@ h5 {
 .exhibitions-list {
   list-style: none;
   display: grid;
+}
+
+.exhibitions h5 {
+  color: rgb(0, 0, 0);
+  font-family: "Lora", serif;
 }
 
 .exhibition {

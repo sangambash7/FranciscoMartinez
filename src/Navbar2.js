@@ -61,6 +61,8 @@ export default function Navbar2() {
           {/* SideBar */}
           <div
             className="sidebar offcanvas offcanvas-start"
+            data-bs-scroll="true"
+            data-bs-backdrop="false"
             tabIndex="-1"
             id="offcanvasNavbar"
             aria-labelledby="offcanvasNavbarLabel"
@@ -82,7 +84,7 @@ export default function Navbar2() {
               </h5>
               <button
                 type="button"
-                class="btn-close shadow-none"
+                className="btn-close shadow-none"
                 data-bs-dismiss="offcanvas"
                 aria-label="Close"
               ></button>
@@ -100,7 +102,7 @@ export default function Navbar2() {
                   </Link>
                 </li>
 
-                <li class="nav-item navbar-menu-item dropdown mx-2 text-dark">
+                <li className="nav-item navbar-menu-item dropdown mx-2 text-dark">
                   <Link
                     to="#"
                     className="nav-link dropdown-toggle text-dark"
@@ -111,7 +113,7 @@ export default function Navbar2() {
                   >
                     Publications
                   </Link>
-                  <ul class="dropdown-menu">
+                  <ul className="dropdown-menu">
                     <li>
                       <Link
                         to="/Publications"
