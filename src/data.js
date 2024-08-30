@@ -147,6 +147,16 @@ const publicationsData = [
     category: "issue",
   },
   {
+    id: 37,
+    namePublication:
+      "Acts of Re-designing. For an Interventive Social Research, with T.S. Criado and E. Berglund",
+    publisher: "",
+    year: "Forthcoming",
+    image: "37.jpeg",
+    hyperlink: "Acts-Of-Re-Designing",
+    category: "article",
+  },
+  {
     id: 14,
     namePublication:
       "Garbography: Waste Matter as Asemic Writing, with O. Pyyhtinen",
@@ -171,7 +181,7 @@ const publicationsData = [
     namePublication: "Time to fix: Repair heuristics in Estonia and Portugal",
     publisher: "Etnográfica",
     year: "2023",
-    image: "16.jpeg",
+    image: "16.png",
     hyperlink: "Time-To-Fix",
     category: "article",
   },

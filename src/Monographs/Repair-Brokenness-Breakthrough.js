@@ -10,7 +10,7 @@ export default function RepairBrokennessBreakthrough() {
 
         <div className="publication-text mt-5">
           <h2 className="mb-4">
-            3. Repair, Brokenness, Breakthrough. Ethnographic Responses. Edited
+            Repair, Brokenness, Breakthrough. Ethnographic Responses. Edited
             with Patrick Laviolette.
             <br />
             Berghahn, 2019

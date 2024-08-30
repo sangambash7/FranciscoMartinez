@@ -30,7 +30,7 @@ import AnthropologyOfAtFromHome from "./Monographs/Anthropology-Of-At-From-Home"
 import BoundaryReWork from "./Monographs/Boundary-Re-Work";
 import ChangingMargins from "./Monographs/Changing-Margins";
 import RethinkingEuroAnthropology from "./Monographs/Rethinking-Euro-Anthropology";
-
+import ActsOfReDesigning from "./Monographs/Acts-Of-Re-Designing";
 import GarbographyWasteMatter from "./Monographs/Garbography-Waste-Matter";
 import HitchhackingPassengerEthnography from "./Monographs/Hitchhacking-Passenger-Ethnography";
 import TimeToFix from "./Monographs/Time-To-Fix";
@@ -123,7 +123,7 @@ function App() {
           path="/Rethinking-Euro-Anthropology"
           element={<RethinkingEuroAnthropology />}
         />
-
+        <Route path="/Acts-Of-Re-Designing" element={<ActsOfReDesigning />} />
         <Route
           path="/Garbography-Waste-Matter"
           element={<GarbographyWasteMatter />}
