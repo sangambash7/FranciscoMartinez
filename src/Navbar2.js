@@ -25,7 +25,6 @@ export default function Navbar2() {
     // Close the offcanvas
     if (bootstrapOffcanvas) {
       bootstrapOffcanvas.hide();
-      console.log(bootstrapOffcanvas);
 
       // Remove any leftover backdrop manually
       const backdrop = document.querySelector(".offcanvas-backdrop");
