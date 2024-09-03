@@ -34,7 +34,7 @@ export default function Navbar() {
                     style={{ lineHeight: "0.8rem" }}
                   >
                     Material Culture • Experimental Ethnography <br />• Waste &
-                    Repair • European Peripheries <br />• Art & Anthropology
+                    Repair • Art & Anthropology
                   </span>
                 </Link>
               </li>

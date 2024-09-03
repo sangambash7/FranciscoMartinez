@@ -29,6 +29,7 @@ import LivingWithAndWithoutThings from "./Monographs/Living-With-And-Without-Thi
 import AnthropologyOfAtFromHome from "./Monographs/Anthropology-Of-At-From-Home";
 import BoundaryReWork from "./Monographs/Boundary-Re-Work";
 import ChangingMargins from "./Monographs/Changing-Margins";
+import TheExpectationsOf1991 from "./Monographs/The-Expectations-Of-1991";
 import RethinkingEuroAnthropology from "./Monographs/Rethinking-Euro-Anthropology";
 import ActsOfReDesigning from "./Monographs/Acts-Of-Re-Designing";
 import GarbographyWasteMatter from "./Monographs/Garbography-Waste-Matter";
@@ -42,6 +43,9 @@ import AnaloguePhotoBooths from "./Monographs/Analogue-Photo-Booths";
 import DoingNothingAnthropology from "./Monographs/Doing-Nothing-Anthropology";
 import ThisPlaceHasPotential from "./Monographs/This-Place-Has-Potential";
 import WasteIsNotTheEnd from "./Monographs/Waste-Is-Not-The-End";
+import TheatreOfMemory from "./Monographs/Theatre-Of-Memory";
+import TrespassIntoTheLiminal from "./Monographs/Trespass-Into-The-Liminal";
+import Peripheristan from "./Monographs/Peripheristan";
 import RemainingWithoutPreservation from "./Monographs/Remaining-Without-Preservation";
 import CoethnographersInThestorm from "./Monographs/Co-ethnographers-In-The-storm";
 import HowToMakeEthnographicResearch from "./Monographs/How-To-Make-Ethnographic-Research";
@@ -120,6 +124,10 @@ function App() {
         <Route path="/Boundary-Re-Work" element={<BoundaryReWork />} />
         <Route path="/Changing-Margins" element={<ChangingMargins />} />
         <Route
+          path="/The-Expectations-Of-1991"
+          element={<TheExpectationsOf1991 />}
+        />
+        <Route
           path="/Rethinking-Euro-Anthropology"
           element={<RethinkingEuroAnthropology />}
         />
@@ -156,7 +164,12 @@ function App() {
           element={<ThisPlaceHasPotential />}
         />
         <Route path="/Waste-Is-Not-The-End" element={<WasteIsNotTheEnd />} />
-
+        <Route path="/Theatre-Of-Memory" element={<TheatreOfMemory />} />
+        <Route
+          path="/Trespass-Into-The-Liminal"
+          element={<TrespassIntoTheLiminal />}
+        />
+        <Route path="/Peripheristan" element={<Peripheristan />} />
         <Route
           path="/Remaining-Without-Preservation"
           element={<RemainingWithoutPreservation />}

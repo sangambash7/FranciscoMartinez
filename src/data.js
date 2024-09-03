@@ -13,7 +13,7 @@ const publicationsData = [
     namePublication: "Escondites. Un descenso a lo secreto y sus espacios",
     publisher: "Bifurcaciones",
     year: "2024",
-    image: "2.jpg",
+    image: "2.jpeg",
     hyperlink: "Escondites",
     category: "monograph",
   },
@@ -137,11 +137,21 @@ const publicationsData = [
     category: "issue",
   },
   {
+    id: 38,
+    namePublication:
+      "Que reste-t-il de nos amours? The expectations of 1991 revisited",
+    publisher: "Anthropological Journal of European Cultures",
+    year: "2017",
+    image: "12.38.jpg",
+    hyperlink: "The-Expectations-Of-1991",
+    category: "issue",
+  },
+  {
     id: 13,
     namePublication:
       "Rethinking Euro-Anthropology. Part Three. Early career scholars forum",
     publisher: "Social Anthropology",
-    year: "2017",
+    year: "2016",
     image: "13.jpeg",
     hyperlink: "Rethinking-Euro-Anthropology",
     category: "issue",
@@ -266,6 +276,37 @@ const publicationsData = [
     category: "article",
   },
   {
+    id: 40,
+    namePublication:
+      "To whom belongs history? The theatre of memory in Russia, Estonia and Georgia",
+    publisher: "Anthropological Journal of European Cultures",
+    year: "2017",
+    image: "40.jpeg",
+    hyperlink: "Theatre-Of-Memory",
+    category: "article",
+  },
+  {
+    id: 41,
+    namePublication:
+      "Trespass into the liminal: Urban exploration in Estonia, With P. Laviolette",
+    publisher: "Anthropological Journal of European Cultures",
+    year: "2016",
+    image: "41.jpg",
+    hyperlink: "Trespass-Into-The-Liminal",
+    category: "article",
+  },
+
+  {
+    id: 39,
+    namePublication:
+      "Peripheristan. In Anti-Atlas. Ed. by W. Bracewell, T. Beasley, & M. Murawski",
+    publisher: "UCL Press",
+    year: "2025",
+    image: "39.jpeg",
+    hyperlink: "Peripheristan",
+    category: "chapter",
+  },
+  {
     id: 25,
     namePublication:
       "Remaining without preservation: The unfitness of Kino Rodina as zombie heritage. In Connecting with Ambivalent Heritage. T. Äikäs and T. Matila (ed.)",
@@ -320,7 +361,7 @@ const publicationsData = [
     namePublication: "Paseo Circular",
     publisher: "Bifurcaciones",
     year: "2021",
-    image: "30.jpg",
+    image: "30.jpeg",
     hyperlink: "Paseo-Circular",
     category: "novel",
   },

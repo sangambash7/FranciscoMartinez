@@ -5,7 +5,7 @@ export default function PaseoCircular() {
     <main>
       <div className="publication-container">
         <div className="publication-upper">
-          <img src="media/publications-imgs/30.jpg" alt="Publication" />
+          <img src="media/publications-imgs/30.jpeg" alt="Publication" />
         </div>
 
         <div className="publication-text mt-5">

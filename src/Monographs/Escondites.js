@@ -5,7 +5,7 @@ export default function Escondites() {
     <main>
       <div className="publication-container">
         <div className="publication-upper">
-          <img src="media/publications-imgs/2.jpg" alt="Publication" />
+          <img src="media/publications-imgs/2.jpeg" alt="Publication" />
         </div>
 
         <div className="publication-text mt-5">

@@ -44,7 +44,7 @@ export default function Navbar2() {
 
             <span className="keywords d-none d-lg-block">
               Material Culture • Experimental Ethnography <br />• Waste & Repair
-              • European Peripheries <br />• Art & Anthropology
+              • Art & Anthropology
             </span>
           </Link>
 

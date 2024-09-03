@@ -5,7 +5,7 @@ export default function TimeToFix() {
     <main>
       <div className="publication-container">
         <div className="publication-upper">
-          <img src="media/publications-imgs/16.jpeg" alt="Publication" />
+          <img src="media/publications-imgs/16.png" alt="Publication" />
         </div>
 
         <div className="publication-text mt-5">

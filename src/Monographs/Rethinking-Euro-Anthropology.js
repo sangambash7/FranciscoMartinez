@@ -20,7 +20,7 @@ export default function RethinkingEuroAnthropology() {
               forum.
             </a>
             <br />
-            Social Anthropology, 2017.
+            Social Anthropology, 2016.
           </h2>
           <p>
             The changes that our discipline has been undergoing over recent
