@@ -142,7 +142,7 @@ const publicationsData = [
       "Que reste-t-il de nos amours? The expectations of 1991 revisited",
     publisher: "Anthropological Journal of European Cultures",
     year: "2017",
-    image: "12.38.jpg",
+    image: "38.jpg",
     hyperlink: "The-Expectations-Of-1991",
     category: "issue",
   },

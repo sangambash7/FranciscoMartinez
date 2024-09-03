@@ -5,7 +5,7 @@ export default function TheExpectationsOf1991() {
     <main>
       <div className="publication-container">
         <div className="publication-upper">
-          <img src="media/publications-imgs/37.jpg" alt="Publication" />
+          <img src="media/publications-imgs/38.jpg" alt="Publication" />
         </div>
 
         <div className="publication-text mt-5">
